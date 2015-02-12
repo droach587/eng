@@ -10,12 +10,7 @@
 	
 	img{ height: auto !important; }
 	
-	body, html{
-		min-width: $default-min-width;
-	}
 	
-	body{
-	}
 	
 	.full-width{
 		float:left;
@@ -34,6 +29,15 @@
 		float: right;
 		display: block;
 		position: relative;
+	}
+	
+	body, html{
+		@extend .full-width;
+		height: 100%;
+	}
+	
+	body{
+		background: $brand-light-grey;
 	}
 	
 	.text-center{
@@ -59,7 +63,307 @@
 //  Load Addtl Modules
 //  ==========================================================================
 	@import 'grids';
+	@import 'buttons';
+	@import 'sprites';
+	@import 'type';
 	
 //  ==========================================================================
 //  Themeatic Styles Below
 //  ==========================================================================
+
+//  ==========================================================================
+//  Primary Nav
+//  ==========================================================================
+
+	.primary-nav{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		z-index: 99;
+		@include transition-duration(.2s);
+		@include transition-property(all);
+		&.filled{
+			background: black;
+		}
+	}
+	
+	.primary-nav--container{
+		@extend .full-width;
+		text-align: center;
+		padding: 20px;
+		@include box-sizing(border-box);
+		a{
+			color: white;
+			font: normal 15px sans-serif;
+			@include transition-duration(.2s);
+			@include transition-property(all);
+			&:hover{
+				color: $brand-orange;
+			}
+		}
+	}
+	
+	.primary-nav--brand-logo{
+		position: absolute;
+		top: 20px;
+		left: 20px;
+	}
+	
+	.primary-nav--center-menu{
+		display: inline-block;
+		text-align: center;
+		padding: 0;
+		margin: 10px 0;
+		li{
+			display: inline-block;
+			padding: 0 10px;
+		}
+	}
+	
+	.primary-nav--right-menu{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		padding: 0;
+		margin: 10px 0;
+		li{
+			display: inline-block;
+			padding: 0 10px;
+			a{ font-size: 13px; }
+		}
+	}
+
+//  ==========================================================================
+//  Homepage Hero Module
+//  ==========================================================================
+
+	.hm-hero--full{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background: black image-url('hm-hero-background.jpg') center center no-repeat;
+		display: table;
+		text-align: center;
+		overflow: hidden;
+		@include background-size(cover);
+	}
+	
+	.hm-hero--center-container{
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.hm-hero--cta-container{
+		.btn{
+			margin: 14px 2px;
+		}
+	}
+	
+	.hm-hero--arrow-down{
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		right: 0;
+		width: 100px;
+		height: 45px;
+		background: image-url('hm-hero-arrow-dn.png') 0px 0px no-repeat;
+		margin: 0 auto 0 auto;
+		@include transition-duration(.2s);
+		@include transition-property(all);
+		@include background-size(cover);
+		&:hover{
+			opacity: .6;
+		}
+	}
+	
+//  ==========================================================================
+//  Mid Section
+//  ==========================================================================
+
+	.mid-section--full{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		display: block;
+		z-index: 10;
+	}
+	
+	.mid-section--center{
+		display: table;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		.vertical-center{
+			display: table-cell;		
+			vertical-align: middle;
+		}
+	}
+	
+	.inner-mid-section{
+		background: #333333;
+		@extend .full-width;
+		padding: 45px 60px 45px 60px;
+		margin: 20px 0 0 -60px;
+		text-align: center;
+		.btn{
+			vertical-align: middle;
+			margin-left: 20px;
+		}
+	}
+
+//  ==========================================================================
+//  Market graph
+//  ==========================================================================
+
+	.market-graph{
+		@extend .full-width;
+		margin: 40px 0;
+		padding: 0;
+		li{
+			@extend .float-left;	
+			width: #{(100/7)+'%'};
+			a{
+				padding: 10px;
+				background: $brand-off-white;
+				text-align: center;
+				min-height: 320px;
+				@extend .full-width;
+				@include transition-duration(.2s);
+				@include transition-property(all);
+				@include box-sizing(border-box);
+				&:hover{
+					background: #f6f6f6;
+					.market-graph-plus{
+						color: $brand-orange;
+					}
+				}
+			}
+			.market-icons{
+				margin-top: 50px;
+			}
+			.market-graph-title{
+				padding: 10px 0 60px 0;
+				display: inline-block;
+			}
+			.market-graph-plus{
+				width: 100%;
+				display: inline-block;
+			}
+			.market-graph-title,
+			.market-graph-plus{
+				color: $brand-medium-grey;
+				font:normal 18px sans-serif;
+				@include transition-duration(.2s);
+				@include transition-property(all);
+			}
+			.market-graph-plus{
+				font-size: 26px;
+			}
+		}
+	}
+	
+	//  ==========================================================================
+	//  Facilities Graph
+	//  ==========================================================================
+	
+	.facilities-graph{
+		@extend .full-width;
+		margin: 0px 0;
+		padding: 0;
+		li{
+			@extend .float-left;	
+			width: #{(100/3)+'%'};
+			margin: 10px 0;
+			padding: 0 10px;
+			@include box-sizing(border-box);
+			a{
+				@extend .full-width;
+				padding: 14px 10px;
+				border: 2px solid #ececec;
+				text-align: left;
+				background: #fafafa;
+				color: #5d5d5d;
+				letter-spacing: 1px;
+				font: normal 17px sans-serif;
+				text-transform: uppercase;
+				@include box-sizing(border-box);
+			}
+			.icon{
+				position: absolute;
+				width: 47px;
+				right: 0px;
+				top: 0px;
+				height: 100%;
+				background: #ececec;
+				text-align: center;
+				i{
+					vertical-align: middle;
+					display: inline-block;
+					margin-top: 14px;
+				}
+			}
+		}
+	}
+	
+	//  ==========================================================================
+	//  Global Reach Graph
+	//  ==========================================================================
+	
+	.global-reach-graph{
+		margin-top: 60px;
+		background: image-url('eng-country-bg.jpg') center center no-repeat;
+		@include background-size(cover);
+		.col{
+			padding: 20px;
+		}
+		.h3{
+			margin: 10px 0;
+			padding: 0px;
+			i{
+				color: $brand-orange;
+			}
+		}
+		p{
+			font-size: 15px;
+			line-height: 30px;
+			margin: 0;
+			padding: 0px;
+		}
+	}
+	
+	//  ==========================================================================
+	//  Simple Numbers
+	//  ==========================================================================
+	
+		.simple-numbers{
+			.col{
+				padding: 20px;
+			}
+			.circle-num{
+				display: inline-block;
+				font: normal 46px sans-serif;
+				text-align: center;
+				border: 2px solid lighten($brand-medium-grey,40%);
+				padding: 20px 30px;
+				color: $brand-orange;
+				@include border-radius(100px);
+			}
+			.h3{
+				font-size: 28px;
+				padding-bottom: 10px;
+				margin: 0;
+			}
+			p{
+				margin: 10px 0;
+				padding: 0px
+			}
+		}
+	
+	

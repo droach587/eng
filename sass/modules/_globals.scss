@@ -18,10 +18,11 @@
 	
 	//Foundation 
 	@include font-face("foundation-icons", font-files("foundation-icons.eot","foundation-icons.ttf", "foundation-icons.woff"));
-
+	@include font-face("Font Awesome", font-files("fontawesome-webfont.eot","fontawesome-webfont.ttf", "fontawesome-webfont.eot"));
 	
 	//Default Font Families, Adjustments etc
-	$font-family-default: "Arial", "Helvetica", sans-serif !default;	
+	$font-family-default: 		"Arial", "Helvetica", sans-serif !default;
+	$FontAwesome: "Font Awesome", "Arial", "Helvetica", sans-serif !default;
 	$default-font-size: 		14px !default;
 	$default-light-height:		18px !default;
 
@@ -36,6 +37,10 @@
 //  Colors
 //  ==========================================================================
 
+	$brand-orange:				#fa6121;
+	$brand-medium-grey:			#5d5d5d;
+	$brand-light-grey:			#ececec;
+	$brand-off-white:			#fafafa;
 
 //  ==========================================================================
 //  Sprites, Image Refs

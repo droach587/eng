@@ -1,0 +1,18 @@
+//  ==========================================================================
+//  Sprites
+//  ==========================================================================
+
+	@import "market-icons/*.png";
+	
+	.market-icons{
+		width: 90px;
+		height: 90px;
+		display: inline-block;
+		&.person	{	@include market-icons-sprite(person);	}
+		&.radio		{	@include market-icons-sprite(radio);	}
+		&.heart		{	@include market-icons-sprite(heart);	}
+		&.hammer	{	@include market-icons-sprite(hammer);	}
+		&.graph		{	@include market-icons-sprite(graph);	}
+		&.bolt		{	@include market-icons-sprite(bolt);		}
+		&.bank		{	@include market-icons-sprite(bank);		}
+	}

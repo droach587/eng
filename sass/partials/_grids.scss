@@ -29,59 +29,80 @@
 @mixin span_first {
     margin-left:0;
 }
+  
     
-@media screen and (min-width: 0px) {
-    
-    .col {
-        margin-left:0%;
-        padding:0 0.5%;
-    }
-    
-    $max_columns: 12;
-    $padding: 0 0.5%;
-    $gutter_px: 0;
-    $gutter_pc: 0%;
-    
-    .row .col:first-child {
-        @include span_first;
-    }
+.col {
+    margin-left:0%;
+    padding:0 0.5%;
+}
 
-    .span_1 {
-        @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_2 {
-        @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_3 {
-        @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_4 {
-        @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_5 {
-        @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_6 {
-        @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_7 {
-        @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_8 {
-        @include span(8, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_9 {
-        @include span(9, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_10 {
-        @include span(10, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_11 {
-        @include span(11, $gutter_pc, $gutter_px, $padding, $max_columns);
-    }
-    .span_12 {
-        @include span_first;
-        width:100%;
+$max_columns: 12;
+$padding: 0 0.5%;
+$gutter_px: 0;
+$gutter_pc: 0%;
+
+.row .col:first-child {
+    @include span_first;
+}
+
+.span_1 {
+    @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_2 {
+    @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_3 {
+    @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_4 {
+    @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_5 {
+    @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_6 {
+    @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_7 {
+    @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_8 {
+    @include span(8, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_9 {
+    @include span(9, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_10 {
+    @include span(10, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_11 {
+    @include span(11, $gutter_pc, $gutter_px, $padding, $max_columns);
+}
+.span_12 {
+    @include span_first;
+    width:100%;
+}
+
+//  ==========================================================================
+//  Site Containers
+//  ==========================================================================
+
+
+.site-container{
+    @extend .full-width;
+    &.hero-push{
+	    top: 100%;
     }
 }
+
+.inner-container{
+	@include center-container(1096,200);
+	background: white;
+	padding: 100px 60px;
+	@include box-sizing(border-box);
+	&.flat-bottom{
+		padding-bottom: 0px;
+	}
+}
+
  

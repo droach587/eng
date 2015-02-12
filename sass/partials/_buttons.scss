@@ -1,0 +1,46 @@
+//  ==========================================================================
+//  Button Partial
+//  ==========================================================================
+
+	%animate-class{
+		@include transition-duration(.2s);
+		@include transition-property(all);
+	}
+	
+	.btn{
+		&.orange{
+			background: $brand-orange;
+			color: white;
+			border-color: $brand-orange;
+			&:hover{
+				background: $brand-medium-grey;
+				border-color: $brand-medium-grey;
+			}
+			&.knockout:hover{
+				 background: transparent;
+			}
+		}
+	}
+	
+	.btn{
+		display: inline-block;
+		font: normal 17px sans-serif;
+		letter-spacing: 1px;
+		background: black;
+		color: white;
+		padding: 15px 50px;
+		text-transform: uppercase;
+		border: 2px solid black;
+		@include box-sizing(border-box);
+		@extend %animate-class;
+		&.knockout{
+			background: transparent;
+		}
+		i{ 
+			font-size: 15px; 
+			@extend %animate-class;
+		}
+		&:hover{
+			i{ padding: 0 5px 0 0; }
+		}
+	}

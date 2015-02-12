@@ -1,45 +1,42 @@
-/* ------------------------------------------------------------------------
-Ammirati Global Function Setlist
-------------------------------------------------------------------------- */
-var mainJs = (function($){
+var mainJs = (function () {
+ 
+ 		function scrollNav(){
+	 		$(document).on('scroll', function(){
+	 			var scrolltop = $(this).scrollTop();
+	 			
+	 			if(scrolltop >= 100){
+		 			setTimeout(function(){
+			 			$('.primary-nav').addClass('filled');
+		 			}, 100);
+	 			}
+	 			
+	 			if(scrolltop < 100){
+		 			setTimeout(function(){
+			 			$('.primary-nav').removeClass('filled');
+		 			}, 100);
+	 			}
 
-	// Avoid `console` errors in browsers that lack a console.
-	(function() {
-	    var method;
-	    var noop = function () {};
-	    var methods = [
-	        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
-	        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
-	        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
-	        'timeStamp', 'trace', 'warn'
-	    ];
-	    var length = methods.length;
-	    var console = (window.console = window.console || {});
-	
-	    while (length--) {
-	        method = methods[length];
-	
-	        // Only stub undefined methods.
-	        if (!console[method]) {
-	            console[method] = noop;
-	        }
-	    }
-
-	}());
-	
-	
-
-	
-
-	// PUBLIC METHODS
-	return {
-			
-		init: function(options) {
-			
-			var defaults = {}
-			options = $.extend(defaults, options);	
-
-		}		
-	}
-     
-})(jQuery);
+	 		});
+	 		
+	 		$('.hm-hero--arrow-down').on('click', function(e){
+	 			$('html, body').stop().animate({
+		 			scrollTop: $('.site-container').offset().top
+	 			},700);
+	 			
+	 			e.preventDefault();
+ 			});
+ 		}
+        
+       function init(){
+	       scrollNav();
+       }
+ 
+ 
+        // Reveal public pointers to
+        // private functions and properties
+ 
+        return {
+            init: init
+        };
+ 
+    })();
