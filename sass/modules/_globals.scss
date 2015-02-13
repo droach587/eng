@@ -17,8 +17,8 @@
 //  ==========================================================================
 	
 	//Foundation 
-	@include font-face("foundation-icons", font-files("flexslider-icon.eot","flexslider-icon.ttf", "flexslider-icon.woff"));
-	@include font-face("flexslider-icon", font-files("foundation-icons.eot","foundation-icons.ttf", "foundation-icons.woff"));
+	@include font-face("flexslider-icon", font-files("flexslider-icon.eot","flexslider-icon.ttf", "flexslider-icon.woff"));
+	@include font-face("foundation-icons", font-files("foundation-icons.eot","foundation-icons.ttf", "foundation-icons.woff"));
 	@include font-face("Font Awesome", font-files("fontawesome-webfont.eot","fontawesome-webfont.ttf", "fontawesome-webfont.eot"));
 	
 	//Default Font Families, Adjustments etc

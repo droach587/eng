@@ -70,6 +70,44 @@
 	.z-high{
 		z-index: 77;
 	}
+	
+	.fancybox-skin{
+		@include border-radius(0px);
+		background: white;
+	}
+	
+	.fancybox-nav{
+		width: 50px;
+		span{
+			visibility: visible;
+			height: 58px;
+			width: 50px;
+		}
+		&:hover{
+			span{
+				opacity: .7;
+			}
+		}
+	}
+	
+	.fancybox-next span{
+		background: image-url('fb-right.jpg') 0px 0px no-repeat !important;
+	}
+	
+	.fancybox-prev span{
+		background: image-url('fb-left.jpg') 0px 0px no-repeat !important;
+	}
+	
+	.fancybox-close{
+		right: 10px;
+		top: 10px;
+		width: 36px;
+		height: 36px;
+		background: image-url('fb-close.jpg') 0px 0px no-repeat;
+		&:hover{
+			opacity: .6;
+		}
+	}
 
 //  ==========================================================================
 //  Load Addtl Modules
@@ -504,6 +542,15 @@
 					text-transform: uppercase;
 					@include background-image(linear-gradient(#4a4a4a, #333333));
 					@include box-sizing(border-box);
+					&::after{
+						position: absolute;
+						bottom: 10px;
+						left: 0px;
+						width: 100%;
+						height: 15px;
+						content: '';
+						background: image-url('case-study-after-bg.jpg') 0px 0px repeat-x;
+					}
 					&:hover{
 						color: $brand-orange;
 					}
@@ -569,11 +616,11 @@
 			.success-article{
 				background: #f2f2f2;
 				padding: 0 0 20px 0;
-				@include transition-duration(2s);
+				@include transition-duration(.2s);
 				@include transition-property(all);
 				@extend .float-left;
 				&:hover{
-					background: darken(#f2f2f2,2%);
+					background: darken(#f2f2f2,10%);
 				}
 			}
 		}
@@ -748,5 +795,26 @@
 				}
 			}
 		}
+		
+		//  ==========================================================================
+		//  CS Overlays
+		//  ==========================================================================
+		
+			.cs-overlay{
+				padding: 40px 80px;
+				width: 600px;
+				.cs-overlay-heading{
+					@extend .full-width;
+					text-align: center;
+					font: normal 46px sans-serif;
+					color: #5d5d5d;
+				}
+				p{
+					font: normal 15px/28px sans-serif;
+					strong{
+						font-family:arial-bold;
+					}
+				}
+			}
 	
 	

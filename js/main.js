@@ -1,5 +1,19 @@
 var mainJs = (function () {
 	
+		function successNav(){
+			
+			$('.success-stories-nav a').on('click', function(e){
+				
+				if($(this).hasClass('.slide-next')){
+					$('.flexslider').flexslider('prev');
+				}else{
+					$('.flexslider').flexslider('prev');
+				}
+				
+				e.preventDefault();
+			});
+		}
+	
 		function facilitiesDrawers(){
 			
 			$('.facilities-graph > li').on('click', function(e){
@@ -62,6 +76,19 @@ var mainJs = (function () {
 	       scrollNav();
 	       marketModals();
 	       facilitiesDrawers();
+	       successNav();
+	       
+	       $('.fb-close').on('click', function(e){
+			   	$.fancybox.close();
+			   	
+			   	$('html, body').stop().animate({
+				   	scrollTop: $('.contact-section').offset().top
+			   	},200);
+			   	
+			   	$('.primary-contact-form input#name-form-input').focus();
+			   	
+			   	e.preventDefault();
+	       });
        }
  
  
