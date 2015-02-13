@@ -4,7 +4,7 @@
 
 	.section-hero--heading{
 		position: relative;
-		font: normal 76px sans-serif;
+		font: normal 76px $opensans-semibold;
 		display: inline-block;
 		color: white;
 		padding: 0px;
@@ -12,7 +12,7 @@
 	}
 	
 	.inner-hero--heading{
-		font: normal 28px;
+		font: normal 28px $opensans-light;
 		display: inline-block;
 		color: white;
 		margin: 0;
@@ -20,24 +20,25 @@
 	}
 	
 	.section-subheading{
-		font: normal 46px sans-serif;
+		font: normal 46px/60px $opensans-light;
 		color: $brand-medium-grey;
 		@extend .full-width;
 	}
 	
 	.section-secondary-subheading{
-		font: normal 35px sans-serif;
+		font: normal 35px $opensans-light;
 		color: $brand-medium-grey;
 		@extend .full-width;
 	}
 	
 	.h3{
+		font-family: $opensans-light;
 		display: inline-block;
 		font-size: 28px;
 	}
 	
 	.hm-hero-h2{
-		font: normal 28px sans-serif;
+		font: normal 28px/34px $opensans-light;
 		display: inline-block;
 		color: white;
 		padding: 30px 0;
@@ -60,7 +61,7 @@
 			width: 1000px;
 			height: 70px;
 			background: image-url('heading-tri-flare.png') center center repeat-x;
-			top: 0px;
+			top: 20px;
 			content: '';
 		}
 	}

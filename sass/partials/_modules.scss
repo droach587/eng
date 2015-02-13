@@ -145,7 +145,7 @@
 		@include box-sizing(border-box);
 		a{
 			color: white;
-			font: normal 15px sans-serif;
+			font: normal 15px $opensans-light;
 			@include transition-duration(.2s);
 			@include transition-property(all);
 			&:hover{
@@ -305,11 +305,17 @@
 			.market-graph-plus{
 				width: 100%;
 				display: inline-block;
+				position: absolute;
+				left: 0px;
+				right: 0px;
+				bottom: 20px;
+				text-align: center;
+				margin: 0 auto 0 auto;
 			}
 			.market-graph-title,
 			.market-graph-plus{
 				color: $brand-medium-grey;
-				font:normal 18px sans-serif;
+				font:normal 18px $opensans-light;
 				@include transition-duration(.2s);
 				@include transition-property(all);
 			}
@@ -333,10 +339,17 @@
 			background: #fff;
 			z-index: 10;
 			@include box-sizing(border-box);
+			
+			
+			.h3,
+			h3,
+			p{
+				font-family: $opensans-light;
+			}
 		}
 		
 		.marked-modal-title{
-			font: normal 46px sans-serif;
+			font: normal 46px $opensans-light;
 			color: #5d5d5d;
 			text-align: center;
 			padding: 20px 0;
@@ -350,7 +363,7 @@
 			position: absolute;
 			right: 0px;
 			top: 50px;
-			font: normal 17px sans-serif;
+			font: normal 17px $opensans-light;
 			text-transform: uppercase;
 			color: black;
 			z-index: 11;
@@ -395,7 +408,7 @@
 				background: #fafafa;
 				color: #5d5d5d;
 				letter-spacing: 1px;
-				font: normal 17px sans-serif;
+				font: normal 17px $opensans-light;
 				text-transform: uppercase;
 				@include box-sizing(border-box);
 				&:hover{
@@ -443,7 +456,7 @@
 				border-right: 2px solid #ececec;
 				border-bottom: 2px solid #ececec;
 				text-align: center;
-				font: normal 18px/22px sans-serif;
+				font: normal 18px/22px $opensans-light;
 				color: #5d5d5d;
 				a{
 					border: none;
@@ -478,6 +491,7 @@
 		.h3{
 			margin: 10px 0;
 			padding: 0px;
+			font-family: $opensans-light;
 			i{
 				color: $brand-orange;
 			}
@@ -508,12 +522,14 @@
 				@include border-radius(100px);
 			}
 			.h3{
+				font-family: $opensans-light;
 				font-size: 28px;
 				padding-bottom: 10px;
 				margin: 0;
 			}
 			p{
-				margin: 10px 0;
+				font-family: $opensans-light;
+				margin: 0px 0;
 				padding: 0px
 			}
 		}
@@ -537,14 +553,14 @@
 					width: 100%;
 					height: 100px;
 					text-align: center;
-					font: normal 18px sans-serif;
+					font: normal 18px $opensans-light;
 					color: white;
 					text-transform: uppercase;
 					@include background-image(linear-gradient(#4a4a4a, #333333));
 					@include box-sizing(border-box);
 					&::after{
 						position: absolute;
-						bottom: 10px;
+						bottom: 7px;
 						left: 0px;
 						width: 100%;
 						height: 15px;
@@ -590,7 +606,7 @@
 				padding: 0px 20px;
 				text-align: center;
 				.h2{
-					font: normal 28px sans-serif;
+					font: normal 28px $opensans-light;
 					margin: 0;
 					padding: 20px 0 10px 0;
 					display: inline-block;
@@ -600,13 +616,13 @@
 					display: inline-block;
 					padding: 10px 20px;
 					margin: 0;
-					font: normal 15px/24px sans-serif;
+					font: normal 15px/24px $opensans-light;
 					color: black;
 					@include box-sizing(border-box);
 				}
 			}
 			.success-heading{
-				font: normal 15px sans-serif;
+				font: normal 15px $opensans-light;
 				letter-spacing: 1px;
 				padding: 0;
 				margin: 5px 0;
@@ -665,7 +681,7 @@
 				color: white;
 				margin: 20px 0;
 				padding: 0px;
-				font: normal 26px sans-serif;
+				font: normal 26px $opensans-light;
 			}
 		}
 		
@@ -684,7 +700,7 @@
 			input{
 				border: 2px solid #5c5656;
 				background: rgba(#2d2d2d,.6);
-				font: normal 26px sans-serif;
+				font: normal 26px $opensans-light;
 				padding: 14px 10px;
 				color: white;
 				@include transition-duration(.2s);
@@ -702,7 +718,7 @@
 			}
 			label,
 			.label{
-				font: normal 26px sans-serif;
+				font: normal 26px $opensans-light;
 				letter-spacing: 1px;
 				color: #999999;
 				text-align: left;
@@ -725,7 +741,7 @@
 					-moz-appearance: none;
 					border: 2px solid #5c5656;
 					background: rgba(#2d2d2d,.6);
-					font: normal 26px sans-serif;
+					font: normal 26px $opensans-light;
 					padding: 14px 10px;
 					color: white;
 					@include border-radius(0);
@@ -767,7 +783,7 @@
 			p{
 				padding: 0;
 				margin: 0;
-				font: normal 16px/24px sans-serif;
+				font: normal 16px/24px $opensans-light;
 			}
 			a{
 				color: #999;
@@ -806,13 +822,13 @@
 				.cs-overlay-heading{
 					@extend .full-width;
 					text-align: center;
-					font: normal 46px sans-serif;
+					font: normal 46px $opensans-light;
 					color: #5d5d5d;
 				}
 				p{
-					font: normal 15px/28px sans-serif;
+					font: normal 15px/28px $opensans-light;
 					strong{
-						font-family:arial-bold;
+						font-family: $opensans-semibold;
 					}
 				}
 			}

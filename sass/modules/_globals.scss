@@ -19,11 +19,19 @@
 	//Foundation 
 	@include font-face("flexslider-icon", font-files("flexslider-icon.eot","flexslider-icon.ttf", "flexslider-icon.woff"));
 	@include font-face("foundation-icons", font-files("foundation-icons.eot","foundation-icons.ttf", "foundation-icons.woff"));
-	@include font-face("Font Awesome", font-files("fontawesome-webfont.eot","fontawesome-webfont.ttf", "fontawesome-webfont.eot"));
+	@include font-face("Font Awesome", font-files("fontawesome-webfont.eot","fontawesome-webfont.ttf", "fontawesome-webfont.eot"));	
+	@include font-face("opensans-light",font-files("opensans-light-webfont.eot","opensans-light-webfont.ttf", "opensans-light-webfont.woff"));
+	@include font-face("opensans-regular",font-files("opensans-regular-webfont.eot","opensans-regular-webfont.ttf", "opensans-regular-webfont.woff"));
+	@include font-face("opensans-semibold",font-files("opensans-semibold-webfont.eot","opensans-semibold-webfont.ttf", "opensans-semibold-webfont.woff"));
 	
 	//Default Font Families, Adjustments etc
 	$font-family-default: 		"Arial", "Helvetica", sans-serif !default;
-	$FontAwesome: "Font Awesome", "Arial", "Helvetica", sans-serif !default;
+	$FontAwesome: "Font Awesome", "Arial", "Helvetica", sans-serif;
+	
+	$opensans-regular: "opensans-regular", "Arial", "Helvetica", sans-serif;
+	$opensans-light: "opensans-light", "Arial", "Helvetica", sans-serif;
+	$opensans-semibold: "opensans-semibold", "Arial", "Helvetica", sans-serif;
+	
 	$default-font-size: 		14px !default;
 	$default-light-height:		18px !default;
 
