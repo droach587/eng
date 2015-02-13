@@ -1,4 +1,35 @@
 var mainJs = (function () {
+	
+		function facilitiesDrawers(){
+			
+			$('.facilities-graph > li').on('click', function(e){
+				
+				$(this).toggleClass('open');
+				$(this).find('.fa-plus').toggleClass('fa-minus');
+				
+				e.preventDefault();
+			});
+			
+		}
+	
+		function marketModals(){
+			
+			$('.market-graph li a').on('click', function(e){
+				
+				var targetModal = $(this).attr('data-graph');
+				
+				$('.market-modals').removeClass('hidden');
+				$('.market-modals '+targetModal).removeClass('hidden');
+				
+				e.preventDefault();
+			});
+			
+			$(document).on('click', '.market-modal-close', function(e){
+				$('.market-modals, .market-modal-element').addClass('hidden');
+				e.preventDefault();
+			});
+			
+		}
  
  		function scrollNav(){
 	 		$(document).on('scroll', function(){
@@ -29,6 +60,8 @@ var mainJs = (function () {
         
        function init(){
 	       scrollNav();
+	       marketModals();
+	       facilitiesDrawers();
        }
  
  

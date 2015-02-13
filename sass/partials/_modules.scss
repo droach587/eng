@@ -66,6 +66,10 @@
 	.white-highlight{
 		color: #fafafa;
 	}
+	
+	.z-high{
+		z-index: 77;
+	}
 
 //  ==========================================================================
 //  Load Addtl Modules
@@ -278,6 +282,60 @@
 	}
 	
 	//  ==========================================================================
+	//  Market Modals
+	//  ==========================================================================
+	
+		.market-modals{
+			position: absolute;
+			width: 100%;
+			left: 0px;
+			right: 0px;
+			margin: 0 auto 0 auto;
+			padding: 10px 40px;
+			background: #fff;
+			z-index: 10;
+			@include box-sizing(border-box);
+		}
+		
+		.marked-modal-title{
+			font: normal 46px sans-serif;
+			color: #5d5d5d;
+			text-align: center;
+			padding: 20px 0;
+			.market-icons{
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+		
+		.market-modal-close{
+			position: absolute;
+			right: 0px;
+			top: 50px;
+			font: normal 17px sans-serif;
+			text-transform: uppercase;
+			color: black;
+			z-index: 11;
+			@include transition-duration(.2s);
+			@include transition-property(all);
+			i{
+				font-size: 45px;
+				vertical-align: middle;
+				display: inline-block;
+				margin-top: -7px;
+				color: #8f97a0;
+				@include transition-duration(.2s);
+				@include transition-property(all);
+			}
+			&:hover{
+				color: $brand-orange;
+				i{
+					color: $brand-orange;
+				}
+			}
+		}
+	
+	//  ==========================================================================
 	//  Facilities Graph
 	//  ==========================================================================
 	
@@ -302,6 +360,11 @@
 				font: normal 17px sans-serif;
 				text-transform: uppercase;
 				@include box-sizing(border-box);
+				&:hover{
+					i{
+						color: $brand-orange;
+					}
+				}
 			}
 			.icon{
 				position: absolute;
@@ -315,8 +378,51 @@
 					vertical-align: middle;
 					display: inline-block;
 					margin-top: 14px;
+					@include transition-duration(.2s);
+					@include transition-property(all);
 				}
 			}
+		}
+		li > ul{
+			position: absolute;
+			top: 100%;
+			left: 0px;
+			margin: 0;
+			padding: 0 10px;
+			z-index: 99;
+			margin-top: -2px;
+			width: 100%;
+			display: none;
+			visibility: hidden;
+			@include box-sizing(border-box);
+			li{
+				width: auto;
+				padding: 0 10px;
+				margin: 0px;
+				background: #fafafa;
+				width: 100%;
+				border-left: 2px solid #ececec;
+				border-right: 2px solid #ececec;
+				border-bottom: 2px solid #ececec;
+				text-align: center;
+				font: normal 18px/22px sans-serif;
+				color: #5d5d5d;
+				a{
+					border: none;
+					display: inline-block;
+					padding: 0px;
+					background: none;
+					text-transform: none;
+					color: $brand-orange;
+					width: auto;
+					float: none;
+					text-decoration: underline !important;
+				}
+			}
+		}
+		li.open > ul{
+			display: block;
+			visibility: visible;
 		}
 	}
 	
