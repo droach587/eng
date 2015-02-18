@@ -1,5 +1,21 @@
 var mainJs = (function () {
 	
+		function jumpnav(){
+			
+			$('.jumpnav li a').on('click', function(e){
+				
+				var target = $(this).attr('href');
+				
+				$('html, body').stop().animate({
+					scrollTop : $(target).offset().top - 80
+				}, 500);
+				
+				e.preventDefault();
+				
+			});
+			
+		}
+	
 		function contactCondition(){
 			
 			$('.form-select-option').on('change',function(){
@@ -90,6 +106,7 @@ var mainJs = (function () {
 	       facilitiesDrawers();
 	       successNav();
 	       contactCondition();
+	       jumpnav();
 	       
 	       $('.fb-close').on('click', function(e){
 			   	$.fancybox.close();
