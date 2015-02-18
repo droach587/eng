@@ -130,7 +130,7 @@
 		top: 0px;
 		left: 0px;
 		width: 100%;
-		z-index: 99;
+		z-index: 999;
 		@include transition-duration(.2s);
 		@include transition-property(all);
 		&.filled{
@@ -337,7 +337,7 @@
 			margin: 0 auto 0 auto;
 			padding: 10px 40px;
 			background: #fff;
-			z-index: 10;
+			z-index: 99;
 			@include box-sizing(border-box);
 			
 			
@@ -440,7 +440,7 @@
 			left: 0px;
 			margin: 0;
 			padding: 0 10px;
-			z-index: 99;
+			z-index: 9;
 			margin-top: -2px;
 			width: 100%;
 			display: none;

@@ -2007,7 +2007,7 @@ a, h1, h2, h4 { -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
 
 hr { width: 20%; left: 50%; margin: 0 0 0 -10%; border-top: 1px solid #5d5d5d; padding: 0px; }
 
-.primary-nav { position: fixed; top: 0px; left: 0px; width: 100%; z-index: 99; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
+.primary-nav { position: fixed; top: 0px; left: 0px; width: 100%; z-index: 999; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
 .primary-nav.filled { background: black; }
 
 .primary-nav--container { text-align: center; padding: 20px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -2051,7 +2051,7 @@ hr { width: 20%; left: 50%; margin: 0 0 0 -10%; border-top: 1px solid #5d5d5d; p
 .market-graph li .market-graph-title, .market-graph li .market-graph-plus { color: #5d5d5d; font: normal 18px "opensans-light", "Arial", "Helvetica", sans-serif; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
 .market-graph li .market-graph-plus { font-size: 26px; }
 
-.market-modals { position: absolute; width: 100%; left: 0px; right: 0px; margin: 0 auto 0 auto; padding: 10px 40px; background: #fff; z-index: 10; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.market-modals { position: absolute; width: 100%; left: 0px; right: 0px; margin: 0 auto 0 auto; padding: 10px 40px; background: #fff; z-index: 99; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .market-modals .h3, .market-modals h3, .market-modals p { font-family: "opensans-light", "Arial", "Helvetica", sans-serif; }
 
 .marked-modal-title { font: normal 46px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; text-align: center; padding: 20px 0; }
@@ -2068,7 +2068,7 @@ hr { width: 20%; left: 50%; margin: 0 0 0 -10%; border-top: 1px solid #5d5d5d; p
 .facilities-graph li a:hover i { color: #fa6121; }
 .facilities-graph li .icon { position: absolute; width: 47px; right: 0px; top: 0px; height: 100%; background: #ececec; text-align: center; }
 .facilities-graph li .icon i { vertical-align: middle; display: inline-block; margin-top: 14px; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
-.facilities-graph li > ul { position: absolute; top: 100%; left: 0px; margin: 0; padding: 0 10px; z-index: 99; margin-top: -2px; width: 100%; display: none; visibility: hidden; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.facilities-graph li > ul { position: absolute; top: 100%; left: 0px; margin: 0; padding: 0 10px; z-index: 9; margin-top: -2px; width: 100%; display: none; visibility: hidden; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .facilities-graph li > ul li { width: auto; padding: 0 10px; margin: 0px; background: #fafafa; width: 100%; border-left: 2px solid #ececec; border-right: 2px solid #ececec; border-bottom: 2px solid #ececec; text-align: center; font: normal 18px/22px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; }
 .facilities-graph li > ul li a { border: none; display: inline-block; padding: 0px; background: none; text-transform: none; color: #fa6121; width: auto; float: none; text-decoration: underline !important; }
 .facilities-graph li.open > ul { display: block; visibility: visible; }
