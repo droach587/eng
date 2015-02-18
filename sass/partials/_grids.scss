@@ -93,6 +93,9 @@ $gutter_pc: 0%;
     &.hero-push{
 	    top: 100%;
     }
+    &.standard-push{
+	    top: 360px;
+    }
 }
 
 .inner-container{
@@ -103,6 +106,12 @@ $gutter_pc: 0%;
 	&.flat-bottom{
 		padding-bottom: 0px;
 	}
+}
+
+.content-wrapper{
+	@extend .full-width;
+	padding: 0 120px;
+	@include box-sizing(border-box);
 }
 
  

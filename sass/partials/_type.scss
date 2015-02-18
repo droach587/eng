@@ -23,6 +23,7 @@
 		font: normal 46px/60px $opensans-light;
 		color: $brand-medium-grey;
 		@extend .full-width;
+		@include box-sizing(border-box);
 	}
 	
 	.section-secondary-subheading{
@@ -35,6 +36,34 @@
 		font-family: $opensans-light;
 		display: inline-block;
 		font-size: 28px;
+	}
+	
+	.content-wrapper{
+		.h3{
+			margin: 20px 0;
+			@extend .full-width;
+		}
+	}
+	
+	.standard-p,
+	.standard-ul{
+		@extend .full-width;
+		padding: 20px 0px;
+		margin: 0px;
+		font: normal 15px/28px $opensans-light;
+		@include box-sizing(border-box);
+		li{
+			@extend .float-left;
+		}
+		img{
+			display: inline-block;
+		}
+		a{
+			color: $brand-orange;
+			&:hover{
+				text-decoration: underline !important;
+			}
+		}
 	}
 	
 	.hm-hero-h2{
