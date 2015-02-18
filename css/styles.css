@@ -2030,6 +2030,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .primary-nav--center-menu li { position: relative; display: inline-block; padding: 20px 10px; }
 .primary-nav--center-menu li:hover a { color: #fa6121; }
 .primary-nav--center-menu li:hover ul { display: block; visibility: visible; }
+.primary-nav--center-menu li.active a { color: rgba(255, 255, 255, 0.6); }
 .primary-nav--center-menu li > ul { position: absolute; top: 100%; left: 0px; margin: 0; padding: 0; background: black; border-top: 2px solid #fa6121; display: none; visibility: hidden; }
 .primary-nav--center-menu li > ul li, .primary-nav--center-menu li > ul a { width: 100%; padding: 0px; display: inline-block; color: white !important; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .primary-nav--center-menu li > ul li > a { padding: 10px; }
