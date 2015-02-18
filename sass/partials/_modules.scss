@@ -512,6 +512,25 @@
 			}
 		}
 		
+		.market-modal-link{
+			top: 50%;
+			position: absolute;
+			z-index: 99;
+			color: #8f97a0;
+			font-size: 80px;
+			@include transition-duration(.2s);
+			@include transition-property(all);
+			&:hover{
+				color: $brand-orange;
+			}
+			&.left{
+				left: -70px;
+			}
+			&.right{
+				right: -70px;
+			}
+		}
+		
 		.market-modal-close{
 			position: absolute;
 			right: 0px;

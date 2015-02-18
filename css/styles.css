@@ -2091,6 +2091,11 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .marked-modal-title { font: normal 46px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; text-align: center; padding: 20px 0; }
 .marked-modal-title .market-icons { display: inline-block; vertical-align: middle; }
 
+.market-modal-link { top: 50%; position: absolute; z-index: 99; color: #8f97a0; font-size: 80px; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
+.market-modal-link:hover { color: #fa6121; }
+.market-modal-link.left { left: -70px; }
+.market-modal-link.right { right: -70px; }
+
 .market-modal-close { position: absolute; right: 0px; top: 50px; font: normal 17px "opensans-light", "Arial", "Helvetica", sans-serif; text-transform: uppercase; color: black; z-index: 11; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
 .market-modal-close i { font-size: 45px; vertical-align: middle; display: inline-block; margin-top: -7px; color: #8f97a0; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
 .market-modal-close:hover { color: #fa6121; }

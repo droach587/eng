@@ -61,13 +61,14 @@ var mainJs = (function () {
 				var targetModal = $(this).attr('data-graph');
 				
 				$('.market-modals').removeClass('hidden');
-				$('.market-modals '+targetModal).removeClass('hidden');
+				$('.market-modals '+targetModal).removeClass('hidden').addClass('visible-market-modal');
 				
 				e.preventDefault();
 			});
 			
 			$(document).on('click', '.market-modal-close', function(e){
 				$('.market-modals, .market-modal-element').addClass('hidden');
+				$('.visible-market-modal').removeClass('visible-market-modal');
 				e.preventDefault();
 			});
 			
@@ -119,6 +120,39 @@ var mainJs = (function () {
 			   	
 			   	e.preventDefault();
 	       });
+	       
+	       
+		   $('.market-modal-link').on('click', function(e){
+			   
+			   $nextElement = ($('.visible-market-modal .market-modal-link.right').parent().next().length === 0)? false : $('.market-modal-link.right').parent().next();
+			   $prevElement = ($('.visible-market-modal .market-modal-link.left').parent().prev().length === 0)? false : $('.market-modal-link.left').parent().prev();
+			   
+			   
+			   if($(this).hasClass('right')){
+				   if($nextElement != false){
+					   $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden');
+					   $nextElement.removeClass('hidden').addClass('visible-market-modal');
+				   }else{
+					    $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden');
+					    $('.first-modal').removeClass('hidden').addClass('visible-market-modal');
+				   }
+			   }else{
+				   if($prevElement != false){
+					   $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden');
+					   $prevElement.removeClass('hidden').addClass('visible-market-modal');
+				   }else{
+					   $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden'); 
+					   $('.last-modal').removeClass('hidden').addClass('visible-market-modal');
+				   }
+			   }
+			   
+			   e.preventDefault();
+		   });
+		   
+		   //Hide Market Modal
+		   if($('.market-modal-element').length === 1){
+			 $('.market-modal-link').addClass('hidden');  
+		   }
        }
  
  
