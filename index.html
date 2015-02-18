@@ -56,8 +56,22 @@
 				<ul class="primary-nav--right-menu">
 					<li><a href="#">Compliance</a></li>
 					<li><a href="#">For Experts</a></li>
-					<li><a href="#">Log In <i class="fa fa-caret-down"></i></a></li>
-					<li><a href="#">EN <i class="fa fa-caret-down"></i></a></li>
+					<li>
+						<a href="#">Log In <i class="fa fa-caret-down"></i></a>
+						<ul class="left">
+							<li><a href="#">Expert Log In</a></li>
+							<li><a href="#">Client Log In</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">EN <i class="fa fa-caret-down"></i></a>
+						<ul class="right">
+							<li><a href="#">FR</a></li>	
+							<li><a href="#">ES</a></li>	
+							<li><a href="#">DE</a></li>						
+							<li><a href="#">ML</a></li>	
+						</ul>
+					</li>
 				</ul>
 			</div>
 		</nav>
@@ -519,17 +533,27 @@
 										<span>
 											<i class="fa fa-caret-down"></i>
 										</span>
-										<select>
+										<select class="form-select-option">
 											<option disabled selected>Please Select:</option>
 											<option value="volvo">Volvo</option>
 											<option value="saab">Saab</option>
 										</select>
 									</label>
 								</div>
-								<label>
-									&nbsp;
-									<a href="#" class="btn orange full-width text-center">submit</a>
-								</label>
+								<div class="hidden-select-items full-widh hidden">
+									<label>
+										Popup Item
+										<input type="text" placeholder="Enter a Subject">
+									</label>
+									<label>
+										Popup Content
+										<textarea>Enter text...</textarea>
+									</label>
+									<label>
+										&nbsp;
+										<a href="#" class="btn orange full-width text-center">submit</a>
+									</label>
+								</div>
 							</form>
 						</div>
 					</section>

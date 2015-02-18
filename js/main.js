@@ -1,5 +1,17 @@
 var mainJs = (function () {
 	
+		function contactCondition(){
+			
+			$('.form-select-option').on('change',function(){
+				
+				if($('.hidden-select-items').hasClass('hidden')){
+					$('.hidden-select-items').removeClass('hidden');
+				}
+				
+			});
+			
+		}
+	
 		function successNav(){
 			
 			$('.success-stories-nav a').on('click', function(e){
@@ -77,6 +89,7 @@ var mainJs = (function () {
 	       marketModals();
 	       facilitiesDrawers();
 	       successNav();
+	       contactCondition();
 	       
 	       $('.fb-close').on('click', function(e){
 			   	$.fancybox.close();

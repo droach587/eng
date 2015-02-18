@@ -50,7 +50,7 @@
 		@extend .full-width;
 		padding: 20px 0px;
 		margin: 0px;
-		font: normal 15px/28px $opensans-light;
+		font: normal 15px/28px $opensans-regular;
 		@include box-sizing(border-box);
 		li{
 			@extend .float-left;
@@ -97,9 +97,9 @@
 	
 	hr{
 		@extend .float-left;
-		width: 20%;
+		width: 10%;
 		left: 50%;
-		margin: 0 0 0 -10%;
+		margin: 0 0 0 -5%;
 		border-top: 1px solid $brand-medium-grey;
 		padding: 0px;
 	}
