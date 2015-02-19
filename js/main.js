@@ -1,5 +1,21 @@
 var mainJs = (function () {
 	
+		function mobileMenu(){
+			
+			$('.primary-nav--mobile-toggle').on('click touchstart', function(e){
+				
+				if(!$(this).hasClass('open')){
+					$('.primary-nav--mobile-toggle i').removeClass('fa-bars').addClass('fa-close');
+				}else{
+					$('.primary-nav--mobile-toggle i').removeClass('fa-close').addClass('fa-bars');
+				}
+				$('.primary-nav--center-menu, .primary-nav--right-menu, .primary-nav--container, .primary-nav--mobile-toggle').toggleClass('open');
+				
+				
+				e.preventDefault();
+			});
+		}
+	
 		function jumpnav(){
 			
 			$('.jumpnav li a').on('click', function(e){
@@ -108,6 +124,7 @@ var mainJs = (function () {
 	       successNav();
 	       contactCondition();
 	       jumpnav();
+	       mobileMenu();
 	       
 	       $('.fb-close').on('click', function(e){
 			   	$.fancybox.close();
