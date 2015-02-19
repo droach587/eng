@@ -13,6 +13,10 @@
 			padding: 30px 30px;
 		}
 		
+		.content-wrapper{
+			padding: 0;
+		}
+		
 		.primary-nav--container{
 			background: black;
 			overflow: scroll;
@@ -42,6 +46,8 @@
 			right: 16px;
 			background: black;
 			z-index: 999;
+			display: block;
+			visibility: visible;
 			i{
 				font-size: 30px;
 				vertical-align: middle;
@@ -122,6 +128,16 @@
 					top: -8%;
 				}
 			}
+		}
+		
+		.hm-hero--standard{
+			height: 300px;
+			.section-hero--heading{
+				margin-top: 60px;
+			}
+		}
+		.site-container.standard-push{
+			top: 300px;
 		}
 		
 		.hm-hero-h2{
