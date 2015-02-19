@@ -473,7 +473,7 @@
 			.market-graph-title,
 			.market-graph-plus{
 				color: $brand-medium-grey;
-				font:normal 18px $opensans-light;
+				font:normal 18px $opensans-regular;
 				@include transition-duration(.2s);
 				@include transition-property(all);
 			}
@@ -495,7 +495,7 @@
 			margin: 0 auto 0 auto;
 			padding: 10px 40px;
 			background: #fff;
-			z-index: 99;
+			z-index: 100;
 			@include box-sizing(border-box);
 			
 			
@@ -540,7 +540,7 @@
 			position: absolute;
 			right: 0px;
 			top: 50px;
-			font: normal 17px $opensans-light;
+			font: normal 17px $opensans-regular;
 			text-transform: uppercase;
 			color: black;
 			z-index: 11;
@@ -566,7 +566,6 @@
 	//  ==========================================================================
 	//  Facilities Graph
 	//  ==========================================================================
-	
 	.facilities-graph{
 		@extend .full-width;
 		margin: 0px 0;
@@ -585,7 +584,7 @@
 				background: #fafafa;
 				color: #5d5d5d;
 				letter-spacing: 1px;
-				font: normal 17px $opensans-light;
+				font: normal 17px $opensans-regular;
 				text-transform: uppercase;
 				@include box-sizing(border-box);
 				&:hover{
@@ -633,7 +632,7 @@
 				border-right: 2px solid #ececec;
 				border-bottom: 2px solid #ececec;
 				text-align: center;
-				font: normal 18px/22px $opensans-light;
+				font: normal 18px/22px $opensans-regular;
 				color: #5d5d5d;
 				a{
 					border: none;
@@ -674,7 +673,8 @@
 			}
 		}
 		p{
-			font-size: 15px;
+			
+			font: normal 15px $opensans-regular;
 			line-height: 30px;
 			margin: 0;
 			padding: 0px;
@@ -705,7 +705,8 @@
 				margin: 0;
 			}
 			p{
-				font-family: $opensans-light;
+				font: normal 15px $opensans-regular;
+				color: $brand-medium-grey;
 				margin: 0px 0;
 				padding: 0px
 			}
@@ -730,9 +731,11 @@
 					width: 100%;
 					height: 100px;
 					text-align: center;
-					font: normal 18px $opensans-light;
+					font: normal 18px $opensans-regular;
 					color: white;
 					text-transform: uppercase;
+					cursor: pointer;
+					overflow: hidden;
 					@include background-image(linear-gradient(#333333, #4a4a4a));
 					@include box-sizing(border-box);
 					&::after{
@@ -743,9 +746,15 @@
 						height: 15px;
 						content: '';
 						background: image-url('case-study-after-bg.jpg') 0px 0px repeat-x;
+						@include transition-duration(.2s);
+						@include transition-property(all);
 					}
 					&:hover{
-						color: $brand-orange;
+						background: $brand-orange;
+						color: white;
+						&::after{
+							bottom: -20px;
+						}
 					}
 				}
 				.vertical-center{
@@ -892,14 +901,14 @@
 					border-color: $brand-orange;
 				}
 				@include input-placeholder {
-					color: #eee;
+					color: rgba(#ccc,.5);
 				}
 			}
 			label,
 			.label{
 				font: normal 26px $opensans-light;
 				letter-spacing: 1px;
-				color: #999999;
+				color: white;
 				text-align: left;
 				padding-bottom: 20px;
 			}
@@ -922,7 +931,7 @@
 					background: rgba(#2d2d2d,.6);
 					font: normal 26px $opensans-light;
 					padding: 14px 10px;
-					color: white;
+					color: rgba(#ccc,.5);
 					@include border-radius(0);
 					&:focus{
 						outline:none;

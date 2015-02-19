@@ -106,6 +106,9 @@ $gutter_pc: 0%;
 	&.flat-bottom{
 		padding-bottom: 0px;
 	}
+	&.overview-inner{
+		z-index: 99;
+	}
 }
 
 .content-wrapper{

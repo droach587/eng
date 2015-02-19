@@ -44,10 +44,10 @@ var mainJs = (function () {
 	
 		function facilitiesDrawers(){
 			
-			$('.facilities-graph > li').on('click', function(e){
+			$('.facilities-graph > li > a').on('click', function(e){
 				
-				$(this).toggleClass('open');
-				$(this).find('.fa-plus').toggleClass('fa-minus');
+				$(this).parent().toggleClass('open');
+				$(this).parent().find('.fa-plus').toggleClass('fa-minus');
 				
 				e.preventDefault();
 			});
