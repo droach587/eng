@@ -2055,7 +2055,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .primary-nav--right-menu li > ul.right { left: auto; right: 0px; }
 .primary-nav--right-menu li > ul.right li:first-child::after { right: 10px; left: auto; margin: 0; }
 
-.hm-hero--full { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: black url('/img/hm-hero-background.jpg?1423705431') center center no-repeat; display: table; text-align: center; overflow: hidden; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+.hm-hero--full { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: black url('/img/hm-hero-background.jpg?1425521026') center center no-repeat; display: table; text-align: center; overflow: hidden; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
 
 .hm-hero--standard { position: absolute; top: 0px; left: 0px; width: 100%; height: 360px; background: #1c1c1c url('/img/page-continent-header.jpg?1424225981') center center no-repeat; display: table; text-align: center; overflow: hidden; -moz-background-size: contain; -o-background-size: contain; -webkit-background-size: contain; background-size: contain; }
 .hm-hero--standard .hm-hero--center-container { padding-top: 60px; }
@@ -2150,7 +2150,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .success-stories-nav a { border: 1px solid #777; padding: 0 18px; font-size: 36px; display: inline-block; color: #777; margin: 5px; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; -moz-border-radius: 60px; -webkit-border-radius: 60px; border-radius: 60px; }
 .success-stories-nav a:hover { border-color: #fa6121; color: #fa6121; }
 
-.contact-section { text-align: center; background: #212121 url('/img/contact-form-bg.jpg?1423797229') center center no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+.contact-section { text-align: center; background: #212121 url('/img/contact-form-bg.jpg?1425521470') center center no-repeat; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
 .contact-section .inner-container { background: transparent; }
 .contact-section .section-hero--heading { margin: 80px 0 0 0; font-size: 71px; }
 .contact-section .section-secondary-subheading { color: white; margin: 20px 0; padding: 0px; font: normal 26px "opensans-light", "Arial", "Helvetica", sans-serif; }
@@ -2196,8 +2196,11 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .market-modal .col { padding: 10px 20px 10px 20px; }
 .market-modal .col.span_12 { padding-left: 40px; padding-right: 40px; }
 
-@media screen and (max-width: 960px) { .inner-container { left: 0; margin-left: 0; width: 100%; float: left; padding: 30px 30px; }
-  .content-wrapper { padding: 0; }
+@media screen and (max-width: 1200px) { .primary-nav--center-menu { float: left; margin-left: 150px; }
+  .inner-container { left: 0; margin-left: 0; width: 100%; float: left; padding: 30px 30px; }
+  .inner-mid-section { margin: 20px 0 0 -30px; padding: 45px 30px 45px 30px; }
+  .inner-mid-section .btn { padding: 10px 0; width: 100%; margin: 10px 0; } }
+@media screen and (max-width: 960px) { .content-wrapper { padding: 0; }
   .primary-nav--container { background: black; overflow: scroll; -webkit-overflow-scrolling: touch; }
   .primary-nav--container.open { height: 400px; }
   .primary-nav--container.open .primary-nav--brand-logo { margin-bottom: 30px; }
@@ -2242,8 +2245,6 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
   .simple-numbers .col { width: 100%; text-align: center; padding: 10px; }
   .simple-numbers .circle-num { font-size: 28px; padding: 20px 26px; }
   .simple-numbers .h3 { font-size: 20px; }
-  .inner-mid-section { margin: 20px 0 0 -30px; padding: 45px 30px 45px 30px; }
-  .inner-mid-section .btn { padding: 10px 0; width: 100%; margin: 10px 0; }
   .industry-graph { padding: 0 0; margin-bottom: 0px; }
   .industry-graph .col { width: 100%; }
   .success-stories .col { width: 100%; padding: 0 0 20px 0; }

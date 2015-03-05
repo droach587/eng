@@ -1,17 +1,32 @@
+@media screen and (max-width: 1200px){
+	.primary-nav--center-menu{
+		float: left;
+		margin-left: 150px;
+	}
+	.inner-container{
+		left: 0;
+		margin-left: 0;
+		width: 100%;
+		float: left;
+		padding: 30px 30px;
+	}
+	.inner-mid-section{
+		margin: 20px 0 0 -30px;
+		padding: 45px 30px 45px 30px;
+		.btn{
+			padding: 10px 0;
+			width: 100%;
+			margin: 10px 0;
+		}
+	}
+}
+
 @media screen and (max-width: 960px){
 	
 	
 	//  ==========================================================================
 	//  Start With Base Grids
 	//  ==========================================================================
-	
-		.inner-container{
-			left: 0;
-			margin-left: 0;
-			width: 100%;
-			float: left;
-			padding: 30px 30px;
-		}
 		
 		.content-wrapper{
 			padding: 0;
@@ -267,20 +282,7 @@
 			}
 		}
 		
-	//  ==========================================================================
-	//  Inner Mid Adjustments
-	//  ==========================================================================
-	
-		.inner-mid-section{
-			margin: 20px 0 0 -30px;
-			padding: 45px 30px 45px 30px;
-			.btn{
-				padding: 10px 0;
-				width: 100%;
-				margin: 10px 0;
-			}
-		}
-	
+		
 	//  ==========================================================================
 	//  Industry Graph
 	//  ==========================================================================
