@@ -1982,7 +1982,7 @@ a, h1, h2, h4 { -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
 .btn i { font-size: 15px; }
 .btn:hover i { padding: 0 5px 0 0; }
 
-.market-icons-sprite, .market-icons.person, .market-icons.radio, .market-icons.heart, .market-icons.hammer, .market-icons.graph, .market-icons.bolt, .market-icons.bank { background-image: url('/img/market-icons-s2cf28ebc75.png'); background-repeat: no-repeat; }
+.market-icons-sprite, .market-icons.person, .market-icons.radio, .market-icons.heart, .market-icons.hammer, .market-icons.graph, .market-icons.bolt, .market-icons.bank { background-image: url('/img/market-icons-sa209741810.png'); background-repeat: no-repeat; }
 
 .market-icons { width: 90px; height: 90px; display: inline-block; }
 .market-icons.person { background-position: 0 -450px; }
@@ -2185,6 +2185,16 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .cs-overlay .cs-overlay-heading { text-align: center; font: normal 46px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; }
 .cs-overlay p { font: normal 15px/28px "opensans-regular", "Arial", "Helvetica", sans-serif; }
 .cs-overlay p strong { font-family: "opensans-semibold", "Arial", "Helvetica", sans-serif; }
+
+.market-modal { width: 600px; }
+.market-modal h3, .market-modal .heading { font: normal 28px "opensans-light", "Arial", "Helvetica", sans-serif; }
+.market-modal h3 .market-icons, .market-modal .heading .market-icons { vertical-align: middle; }
+.market-modal h2 { font: normal 42px "opensans-light", "Arial", "Helvetica", sans-serif; }
+.market-modal h2 .market-icons { vertical-align: middle; }
+.market-modal p { font: normal 15px/28px "opensans-regular", "Arial", "Helvetica", sans-serif; }
+.market-modal p strong { font-weight: normal; font-family: "opensans-semibold", "Arial", "Helvetica", sans-serif; }
+.market-modal .col { padding: 10px 20px 10px 20px; }
+.market-modal .col.span_12 { padding-left: 40px; padding-right: 40px; }
 
 @media screen and (max-width: 960px) { .inner-container { left: 0; margin-left: 0; width: 100%; float: left; padding: 30px 30px; }
   .content-wrapper { padding: 0; }

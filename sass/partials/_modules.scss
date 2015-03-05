@@ -1022,5 +1022,35 @@
 					}
 				}
 			}
+			
+			.market-modal{
+				width: 600px;
+				h3, .heading{
+					font: normal 28px $opensans-light;
+					.market-icons{
+						vertical-align: middle;
+					}
+				}
+				h2{
+					font: normal 42px $opensans-light;
+					.market-icons{
+						vertical-align: middle;
+					}
+				}
+				p{
+					font: normal 15px/28px $opensans-regular;
+					strong{
+						font-weight: normal;
+						font-family: $opensans-semibold;
+					}
+				}
+				.col{
+					padding: 10px 20px 10px 20px;
+					&.span_12{
+						padding-left: 40px;
+						padding-right: 40px;
+					}
+				}
+			}
 	
 	
