@@ -18,7 +18,9 @@ var mainJs = (function () {
 	
 		function jumpnav(){
 			
-			$('.jumpnav li a').on('click', function(e){
+			$('.jumpnav li a, .jumpnav > a').on('click', function(e){
+				
+				console.log('sdf');
 				
 				var target = $(this).attr('href');
 				

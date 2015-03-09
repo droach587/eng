@@ -1899,6 +1899,10 @@ img { height: auto !important; }
 
 .float-right { float: right; display: block; position: relative; }
 
+.margin-top-20 { margin-top: 20px; }
+
+.no-margin { margin: 10px 0; padding: 0; }
+
 body, html { height: 100%; }
 
 body { background: #ececec; }
@@ -1931,6 +1935,10 @@ a, h1, h2, h4 { -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
 
 .fancybox-close { right: 10px; top: 10px; width: 36px; height: 36px; background: url('/img/fb-close.jpg?1423806703') 0px 0px no-repeat; }
 .fancybox-close:hover { opacity: .6; }
+
+.orange-copy { color: #fa6121; }
+
+.black-copy { color: #5d5d5d; }
 
 .col { border: 0px solid transparent; float: left; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -moz-background-clip: padding-box !important; -webkit-background-clip: padding-box !important; background-clip: padding-box !important; }
 
@@ -2035,7 +2043,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .primary-nav--center-menu li:hover ul { display: block; visibility: visible; }
 .primary-nav--center-menu li.active a { color: rgba(255, 255, 255, 0.6); }
 .primary-nav--center-menu li > ul { position: absolute; top: 100%; left: 0px; margin: 0; padding: 0; background: black; border-top: 2px solid #fa6121; display: none; visibility: hidden; }
-.primary-nav--center-menu li > ul li, .primary-nav--center-menu li > ul a { width: 100%; padding: 0px; display: inline-block; color: white !important; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.primary-nav--center-menu li > ul li, .primary-nav--center-menu li > ul a { width: 100%; padding: 0px; display: inline-block; color: white !important; white-space: nowrap; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .primary-nav--center-menu li > ul li > a { padding: 10px; }
 .primary-nav--center-menu li > ul li > a:hover { background: rgba(255, 255, 255, 0.1); color: #fa6121 !important; }
 .primary-nav--center-menu li > ul li:first-child::after { position: absolute; left: 0px; right: 0px; top: -6px; margin: 0 auto 0 auto; content: ''; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid #fa6121; }
@@ -2070,7 +2078,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .hero-back { position: absolute; top: 110px; left: 20px; color: white; font: normal 15px "opensans-regular", "Arial", "Helvetica", sans-serif; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
 .hero-back:hover { color: #fa6121; }
 
-.mid-section--full { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: block; z-index: 10; }
+.mid-section--full { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: block; z-index: 10; overflow: hidden; }
 
 .mid-section--center { display: table; width: 100%; height: 100%; text-align: center; }
 .mid-section--center .vertical-center { display: table-cell; vertical-align: middle; }
@@ -2112,7 +2120,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .facilities-graph li .icon { position: absolute; width: 47px; right: 0px; top: 0px; height: 100%; background: #ececec; text-align: center; }
 .facilities-graph li .icon i { vertical-align: middle; display: inline-block; margin-top: 14px; -moz-transition-duration: 0.2s; -o-transition-duration: 0.2s; -webkit-transition-duration: 0.2s; transition-duration: 0.2s; -moz-transition-property: all; -o-transition-property: all; -webkit-transition-property: all; transition-property: all; }
 .facilities-graph li > ul { position: absolute; top: 100%; left: 0px; margin: 0; padding: 0 10px; z-index: 9; margin-top: -2px; width: 100%; display: none; visibility: hidden; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-.facilities-graph li > ul li { width: auto; padding: 0 10px; margin: 0px; background: #fafafa; width: 100%; border-left: 2px solid #ececec; border-right: 2px solid #ececec; border-bottom: 2px solid #ececec; text-align: center; font: normal 18px/22px "opensans-regular", "Arial", "Helvetica", sans-serif; color: #5d5d5d; }
+.facilities-graph li > ul li { width: auto; padding: 0 10px; margin: 0px; background: #fafafa; width: 100%; border-left: 2px solid #ececec; border-right: 2px solid #ececec; border-bottom: 2px solid #ececec; text-align: left; font: normal 18px/22px "opensans-regular", "Arial", "Helvetica", sans-serif; color: #fa6121; }
 .facilities-graph li > ul li a { border: none; display: inline-block; padding: 0px; background: none; text-transform: none; color: #fa6121; width: auto; float: none; text-decoration: underline !important; }
 .facilities-graph li.open > ul { display: block; visibility: visible; }
 
@@ -2189,6 +2197,8 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .market-modal { width: 600px; }
 .market-modal h3, .market-modal .heading { font: normal 28px "opensans-light", "Arial", "Helvetica", sans-serif; }
 .market-modal h3 .market-icons, .market-modal .heading .market-icons { vertical-align: middle; }
+.market-modal h4 { font: normal 22px "opensans-light", "Arial", "Helvetica", sans-serif; }
+.market-modal h4 .market-icons { vertical-align: middle; }
 .market-modal h2 { font: normal 42px "opensans-light", "Arial", "Helvetica", sans-serif; }
 .market-modal h2 .market-icons { vertical-align: middle; }
 .market-modal p { font: normal 15px/28px "opensans-regular", "Arial", "Helvetica", sans-serif; }

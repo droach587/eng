@@ -31,6 +31,15 @@
 		position: relative;
 	}
 	
+	.margin-top-20{
+		margin-top: 20px;
+	}
+	
+	.no-margin{
+		margin: 10px 0;
+		padding: 0;
+	}
+	
 	body, html{
 		@extend .full-width;
 		height: 100%;
@@ -107,6 +116,14 @@
 		&:hover{
 			opacity: .6;
 		}
+	}
+	
+	.orange-copy{
+		color: $brand-orange;
+	}
+	
+	.black-copy{
+		color: $brand-medium-grey;
 	}
 
 //  ==========================================================================
@@ -205,6 +222,7 @@
 				padding: 0px;
 				display: inline-block;
 				color: white !important;
+				white-space: nowrap;
 				@include box-sizing(border-box);
 			}
 			li > a{
@@ -406,6 +424,7 @@
 		height: 100%;
 		display: block;
 		z-index: 10;
+		overflow: hidden;
 	}
 	
 	.mid-section--center{
@@ -636,9 +655,9 @@
 				border-left: 2px solid #ececec;
 				border-right: 2px solid #ececec;
 				border-bottom: 2px solid #ececec;
-				text-align: center;
+				text-align: left;
 				font: normal 18px/22px $opensans-regular;
-				color: #5d5d5d;
+				color: $brand-orange;
 				a{
 					border: none;
 					display: inline-block;
@@ -1027,6 +1046,12 @@
 				width: 600px;
 				h3, .heading{
 					font: normal 28px $opensans-light;
+					.market-icons{
+						vertical-align: middle;
+					}
+				}
+				h4{
+					font: normal 22px $opensans-light;
 					.market-icons{
 						vertical-align: middle;
 					}
