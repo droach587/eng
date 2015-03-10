@@ -63,35 +63,35 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#financials-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons graph"></span>
 							<span class="market-graph-title">Financials</span>
 							<span class="market-graph-plus">+</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#tech-med-tele-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons radio"></span>
 							<span class="market-graph-title">Tech, Media, Telecom</span>
 							<span class="market-graph-plus">+</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#industrials-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons hammer"></span>
 							<span class="market-graph-title">Industrials</span>
 							<span class="market-graph-plus">+</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#hc-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons heart"></span>
 							<span class="market-graph-title">Healthcare</span>
 							<span class="market-graph-plus">+</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#policy-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons bank"></span>
 							<span class="market-graph-title">Public Policy</span>
 							<span class="market-graph-plus">+</span>
