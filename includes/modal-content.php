@@ -3,37 +3,125 @@
 	<div id="hedge-fund-cs" class="cs-overlay">
 		<h2 class="cs-overlay-heading">Hedge Fund Case Study</h2>
 		<div class="col span_12">
-			<p>
-				<strong>Objective:</strong><br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				A long/short investor needed to understand current dynamics <br>within the 3D / additive printing distribution channel.
 			</p>
-			<p>
-				<strong>Result:</strong><br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				<br><br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Technology Producers / OEM<br>
+				<i class="fi fi-plus orange-highlight"></i> Regional Distributors <br>
+				<i class="fi fi-plus orange-highlight"></i> Users from within Industrial Manufacturers
 			</p>
-			<p>	
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client was able to a learn how manufacturers recognize revenue when selling into the channel, as well as current demand trends from major market segments.
+			</p>
+			<p class="full-width text-center">
 				<br>
 				<a class="btn orange fb-close" href="#">become a client</a>
 			</p>
 		</div>
 	</div>
 	
-	<div id="other-fund-cs" class="cs-overlay">
-		<h2 class="cs-overlay-heading">Other Fund Case Study</h2>
+	<div id="corporation-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Corporations Case Study</h2>
 		<div class="col span_12">
-			<p>
-				<strong>Objective:</strong><br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				The engineering, procurement, and construction division of a multinational<br> corporation was interested in expanding its global presence.
 			</p>
-			<p>
-				<strong>Result:</strong><br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				<br><br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Engagement Managers for Major EPC Service Providers<br>
+				<i class="fi fi-plus orange-highlight"></i> Recruiting Managers <br>
+				<i class="fi fi-plus orange-highlight"></i> Political & Regulatory Advisors
 			</p>
-			<p>	
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				The client was able to benchmark current best practices in the areas of bidding process, identifying decision makers, setting pricing, ISO certifications.
+			</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="private-equity-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Private Equity Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				A private equity firm was interested in acquiring an orphan brand<br> laundry detergent manufacturer and needed to understand the market.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Detergent Manufacturers to Elaborate on Brand Loyalty.<br>
+				<i class="fi fi-plus orange-highlight"></i> Supermarkets and Non-Food Retailers
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client was able to understand price rigidity and consumer loyalty trends in the market.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="venture-capital-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Venture Capital Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				A venture fund was interested in a mobile money transfer opportunity.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided experts with perspective from: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Financial Institutions<br>
+				<i class="fi fi-plus orange-highlight"></i> Telecom Operators<br>
+				<i class="fi fi-plus orange-highlight"></i> Hardware Manufacturers<br>
+				<i class="fi fi-plus orange-highlight"></i> State and Federal Regulators
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client was able to understand the business, technological, and regulatory aspects of the market.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="start-up-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Start Up Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				An entrepreneur iterating a platform for pre-disease management needed to understand the current landscape.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided experts <br>from these areas: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Healthcare Providers<br>
+				<i class="fi fi-plus orange-highlight"></i> Insurance Payors<br>
+				<i class="fi fi-plus orange-highlight"></i> Epidemiologists / Clinicians<br>
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client was able to refine his platform's capabilities to target certain use cases as well as adapt his team's sales process to users' purchase & reimbursement processes.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
 				<br>
 				<a class="btn orange fb-close" href="#">become a client</a>
 			</p>

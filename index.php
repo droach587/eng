@@ -248,7 +248,7 @@
 									</div>
 									<div class="col span_4">
 										<h3 class="success-heading">corporations</h3>
-										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
+										<a class="success-article fancybox" href="#corporation-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0008_Corporations.jpg" width="100%" height="auto">
 											<h2 class="h2">Global Presence</h2>
 											<p>The engineering, procurement, and construction division of a multinational corporation was interested in expanding its global presence.</p>
@@ -257,7 +257,7 @@
 									</div>
 									<div class="col span_4">
 										<h3 class="success-heading">private equity</h3>
-										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
+										<a class="success-article fancybox" href="#private-equity-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0006_Private Equity.jpg" width="100%" height="auto">
 											<h2 class="h2">Market Insight</h2>
 											<p>A private equity firm was interested in acquiring an orphan brand laundry detergent manufacturer and needed to understand the market.</p>
@@ -268,7 +268,7 @@
 								<li>
 									<div class="col span_4">
 										<h3 class="success-heading">venture capital</h3>
-										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
+										<a class="success-article fancybox" href="#venture-capital-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0004_VentureCapital.jpg" width="100%" height="auto">
 											<h2 class="h2">Mobile <br>Technology</h2>
 											<p>A venture fund was interested in a mobile money transfer opportunity.<br clear="all"> &nbsp;</p>
@@ -277,7 +277,7 @@
 									</div>
 									<div class="col span_4">
 										<h3 class="success-heading">start ups</h3>
-										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
+										<a class="success-article fancybox" href="#start-up-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0000_Startups.jpg" width="100%" height="auto">
 											<h2 class="h2">Pre-disease Management</h2>
 											<p>An entrepreneur iterating a platform for pre-disease management needed to understand the current landscape.</p>

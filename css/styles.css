@@ -2197,7 +2197,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 
 .cs-overlay { padding: 40px 80px; width: 800px; }
 .cs-overlay .cs-overlay-heading { text-align: center; font: normal 46px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; }
-.cs-overlay p { font: normal 15px/28px "opensans-regular", "Arial", "Helvetica", sans-serif; }
+.cs-overlay p { font: normal 18px/34px "opensans-regular", "Arial", "Helvetica", sans-serif; }
 .cs-overlay p strong { font-family: "opensans-semibold", "Arial", "Helvetica", sans-serif; }
 
 .market-modal { width: 800px; }
