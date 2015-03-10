@@ -218,13 +218,13 @@
 					<ul class="industry-graph">
 						<li class="col span_4"><a href="/industries/hedge-funds"><span class="vertical-center"><span class="center">Hedge Funds &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/industries/corporations"><span class="vertical-center"><span class="center">Corporations &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Private Equity &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Venture Capital &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Services Firms &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Investment Banking &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Law &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Life Sciences &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Start Ups &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/private-equity" class="fancybox"><span class="vertical-center"><span class="center">Private Equity &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/vanture-capital" class="fancybox"><span class="vertical-center"><span class="center">Venture Capital &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/professional-services-firms" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Services Firms &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/investment-banking" class="fancybox"><span class="vertical-center"><span class="center">Investment Banking &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/law" class="fancybox"><span class="vertical-center"><span class="center">Law &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/life-sciences" class="fancybox"><span class="vertical-center"><span class="center">Life Sciences &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/start-ups" class="fancybox"><span class="vertical-center"><span class="center">Start Ups &raquo;</span></span></a></li>
 					</ul>
 					<div class="inner-mid-section">
 						<h1 class="inner-hero--heading">Gain access to our experts today. <a class="btn orange">get started</a></h1>
@@ -238,53 +238,50 @@
 							<ul class="slides">
 								<li>
 									<div class="col span_4">
-										<h3 class="success-heading">hedgefunds</h3>
+										<h3 class="success-heading">hedge funds</h3>
 										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
-											<img src="/img/hedgefund-feat-image.jpg" width="100%" height="auto">
-											<h2 class="h2">Public Policy</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+											<img src="/img/cs-images/9_0007_HedgeFund.jpg" width="100%" height="auto">
+											<h2 class="h2">3D / Additive Printing</h2>
+											<p>A long/short investor needed to understand current dynamics within the 3D / additive printing distribution channel.<br clear="all"> &nbsp;</p>
+											<span class="btn orange">Read Success Story</span>
 										</a>
 									</div>
 									<div class="col span_4">
 										<h3 class="success-heading">corporations</h3>
 										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
-											<img src="/img/corporations-feat-image.jpg" width="100%" height="auto">
-											<h2 class="h2">Healthcare</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+											<img src="/img/cs-images/9_0008_Corporations.jpg" width="100%" height="auto">
+											<h2 class="h2">Global Presence</h2>
+											<p>The engineering, procurement, and construction division of a multinational corporation was interested in expanding its global presence.</p>
+											<span class="btn orange">Read Success Story</span>
 										</a>
 									</div>
 									<div class="col span_4">
 										<h3 class="success-heading">private equity</h3>
 										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
-											<img src="/img/private-equity-feat-image.jpg" width="100%" height="auto">
-											<h2 class="h2">Industrial</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+											<img src="/img/cs-images/9_0006_Private Equity.jpg" width="100%" height="auto">
+											<h2 class="h2">Market Insight</h2>
+											<p>A private equity firm was interested in acquiring an orphan brand laundry detergent manufacturer and needed to understand the market.</p>
+											<span class="btn orange">Read Success Story</span>
 										</a>
 									</div>
 								</li>
 								<li>
 									<div class="col span_4">
-										<h3 class="success-heading">hedgefunds</h3>
+										<h3 class="success-heading">venture capital</h3>
 										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
-											<img src="/img/hedgefund-feat-image.jpg" width="100%" height="auto">
-											<h2 class="h2">2 Public Policy</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+											<img src="/img/cs-images/9_0004_VentureCapital.jpg" width="100%" height="auto">
+											<h2 class="h2">Mobile <br>Technology</h2>
+											<p>A venture fund was interested in a mobile money transfer opportunity.<br clear="all"> &nbsp;</p>
+											<span class="btn orange">Read Success Story</span>
 										</a>
 									</div>
 									<div class="col span_4">
-										<h3 class="success-heading">corporations</h3>
+										<h3 class="success-heading">start ups</h3>
 										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
-											<img src="/img/corporations-feat-image.jpg" width="100%" height="auto">
-											<h2 class="h2">2 Healthcare</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-										</a>
-									</div>
-									<div class="col span_4">
-										<h3 class="success-heading">private equity</h3>
-										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
-											<img src="/img/private-equity-feat-image.jpg" width="100%" height="auto">
-											<h2 class="h2">2 Industrial</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+											<img src="/img/cs-images/9_0000_Startups.jpg" width="100%" height="auto">
+											<h2 class="h2">Pre-disease Management</h2>
+											<p>An entrepreneur iterating a platform for pre-disease management needed to understand the current landscape.</p>
+											<span class="btn orange">Read Success Story</span>
 										</a>
 									</div>
 								</li>

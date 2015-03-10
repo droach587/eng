@@ -93,8 +93,9 @@ var mainJs = (function () {
 		}
  
  		function scrollNav(){
-	 		$(document).on('scroll', function(){
-	 			var scrolltop = $(this).scrollTop();
+	 		
+	 		var scrollAdjust = function(){
+		 		var scrolltop = $(this).scrollTop();
 	 			
 	 			if(scrolltop >= 100){
 		 			setTimeout(function(){
@@ -107,8 +108,15 @@ var mainJs = (function () {
 			 			$('.primary-nav').removeClass('filled');
 		 			}, 100);
 	 			}
-
+	 		}
+	 		$(document).on('scroll', function(){
+	 			scrollAdjust();
 	 		});
+	 		
+	 		//Fire on load, just as good measure
+	 		setTimeout(function(){
+		 		scrollAdjust();
+	 		},50);
 	 		
 	 		$('.hm-hero--arrow-down').on('click', function(e){
 	 			$('html, body').stop().animate({
