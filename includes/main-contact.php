@@ -2,7 +2,7 @@
 	<div class="inner-container">
 		<h2 class="section-hero--heading full-width text-center">Get started</h2>
 		<p class="section-secondary-subheading full-width text-center">Kindly enter your details below and a team member will be in touch with you shortly. Feel free to reach out to us directly at <span class="orange-highlight">1.212.359.8280</span></p>
-		<form class="primary-contact-form">
+		<div class="primary-contact-form">
 			<label>
 				Your Name
 				<input id="name-form-input" type="text" placeholder="First, Last">
@@ -31,19 +31,21 @@
 				</label>
 			</div>
 			<div class="hidden-select-items full-widh hidden">
-				<label>
-					Popup Item
-					<input type="text" placeholder="Enter a Subject">
-				</label>
-				<label>
-					Popup Content
-					<textarea>Enter text...</textarea>
-				</label>
-				<label>
-					&nbsp;
-					<a href="#" class="btn orange full-width text-center">submit</a>
-				</label>
+				<form class="full-width">
+					<label>
+						Popup Item
+						<input type="text" placeholder="Enter a Subject">
+					</label>
+					<label>
+						Popup Content
+						<textarea>Enter text...</textarea>
+					</label>
+					<label>
+						&nbsp;
+						<a href="#" class="btn orange full-width text-center">submit</a>
+					</label>
+				</form>
 			</div>
-		</form>
+		</div>
 	</div>
 </section>

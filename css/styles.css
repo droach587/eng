@@ -2022,7 +2022,7 @@ a, h1, h2, h4 { -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
 .standard-p.medium, .standard-ul.medium { font-size: 22px; line-height: 28px; }
 .standard-p.medium i, .standard-ul.medium i { font-size: 45px; padding-bottom: 20px; }
 .standard-p.medium i.normal, .standard-ul.medium i.normal { font-size: 22px; }
-.standard-p.no-padding, .standard-ul.no-padding { padding: 0px 0; }
+.standard-p.no-padding, .standard-ul.no-padding { padding: 0; }
 
 .hm-hero-h2 { font: normal 28px/34px "opensans-light", "Arial", "Helvetica", sans-serif; display: inline-block; color: white; padding: 30px 0; margin: 0px; }
 
@@ -2138,7 +2138,7 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .global-reach-graph p { font: normal 15px "opensans-regular", "Arial", "Helvetica", sans-serif; line-height: 30px; margin: 0; padding: 0px; }
 
 .simple-numbers .col { padding: 20px; }
-.simple-numbers .circle-num { display: inline-block; font: normal 46px sans-serif; text-align: center; border: 2px solid #c3c3c3; padding: 20px 30px; color: #fa6121; -moz-border-radius: 100px; -webkit-border-radius: 100px; border-radius: 100px; }
+.simple-numbers .circle-num { display: inline-block; font: normal 46px "opensans-regular", "Arial", "Helvetica", sans-serif; text-align: center; border: 2px solid #c3c3c3; padding: 12px 30px; color: #fa6121; -moz-border-radius: 100px; -webkit-border-radius: 100px; border-radius: 100px; }
 .simple-numbers .h3 { font-family: "opensans-light", "Arial", "Helvetica", sans-serif; font-size: 28px; padding-bottom: 10px; margin: 0; }
 .simple-numbers p { font: normal 15px "opensans-regular", "Arial", "Helvetica", sans-serif; color: #5d5d5d; margin: 0px 0; padding: 0px; }
 

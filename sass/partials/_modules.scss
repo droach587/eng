@@ -724,10 +724,10 @@
 			}
 			.circle-num{
 				display: inline-block;
-				font: normal 46px sans-serif;
+				font: normal 46px $opensans-regular;
 				text-align: center;
 				border: 2px solid lighten($brand-medium-grey,40%);
-				padding: 20px 30px;
+				padding: 12px 30px;
 				color: $brand-orange;
 				@include border-radius(100px);
 			}
