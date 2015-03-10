@@ -17,6 +17,8 @@
     RewriteRule ^industries/law(/?$) /law.php [L]
     RewriteRule ^industries/life-sciences(/?$) /life-sciences.php [L]
     RewriteRule ^industries/start-ups(/?$) /start-ups.php [L]
+    
+    ErrorDocument 404 /404.php
 
 </IfModule>
 
