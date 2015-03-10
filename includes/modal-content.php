@@ -47,7 +47,7 @@
 				
 	<!-- Modal -->
 	
-	<div id="consumer-modal-test" class="full-width market-modal">
+	<div id="consumer-modal" class="full-width market-modal">
 		<div class="col span_12">
 			<div class="full-width">
 				<div class="full-width">
@@ -56,20 +56,100 @@
 						Consumer
 					</h2>
 				</div>
+				
 				<div class="col span_12">
-					<h3 class="full-width text-center">Commercial</h3>
-					<p class="text-center">
-							EDUCATION<br>
-							FOOD &amp; BEVERAGES<br>
-							PERSONAL | HOME<br>
-					</p>
+					
+					<div class="full-width">
+						<div class="col span_6">
+							<h3 class="full-width text-center">Commercial</h3>
+							<p class="full-width text-center">
+								Commercial<br>
+								Commercial Goods<br>
+								Commercial Services
+							</p>
+						</div>
+						
+						<div class="col span_6">
+							<h3 class="full-width text-center">Education</h3>
+							<p class="full-width text-center">
+								Not For Profit<br>
+								Products<br>
+								Services
+							</p>
+						</div>
+					</div>
+					<div class="full-width">
+						<div class="col span_6">
+							<h3 class="full-width text-center">Food & Beverage</h3>
+							<p class="full-width text-center">
+								Beer, Wine & Spirits<br>
+								Bottling Companies<br>
+								Convenience Stores<br>
+								Drug Stores<br>
+								Food, Beverage Distributors<br>
+								Grocery Stores<br>
+								Restaurants
+							</p>
+						</div>
+						
+						<div class="col span_6">
+							<h3 class="full-width text-center">Personal & Home</h3>
+							<p class="full-width text-center">
+								Appliances<br>
+								Cleaning Products<br>
+								Furniture<br>
+								Toy Products<br>
+								Toy Stores
+							</p>
+						</div>
+					</div>
+					<div class="full-width">
+						
+						<div class="col span_6">
+							<h3 class="full-width text-center">Travel & Leisure</h3>
+							<p class="full-width text-center">
+								Boating Dealers<br>
+								Boating Manufacturers<br>
+								Booking<br>
+								Casinos<br>
+								Cruise Lines<br>
+								Hotels<br>
+								Resports<br>
+								Spas
+							</p>
+						</div>
+						
+						<div class="col span_6">
+							<h3 class="full-width text-center">Retail</h3>
+							<p class="full-width text-center">
+								Apparel<br>
+								Catalog<br>
+								Appliances, Electronics<br>
+								Cosmetics<br>
+								Department Stores<br>
+								Discount Stores<br>
+								Dollar Stores<br>
+								Jewelers<br>
+								Luxury Goods<br>
+								National Retail Chains<br>
+								Online Retail<br>
+								Specialty Stores
+							</p>
+						</div>
+					</div>
+					<div class="full-width">
+						<div class="col span_6">
+							<h3 class="full-width text-center">Pets</h3>
+							<p class="full-width text-center">
+								Pet Products<br>
+								Pet Services<br>
+								Veterinary
+							</p>
+						</div>
+					</div>
+
 				</div>
-				<div class="col span_12">
-					<h3 class="full-width text-center">Heading</h3>
-					<p class="text-center">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -78,7 +158,7 @@
 	
 	<!-- Modal -->
 	
-	<div id="energy-modal-test" class="full-width market-modal">
+	<div id="energy-modal" class="full-width market-modal">
 		<div class="col span_12">
 			<div class="full-width">
 				<div class="full-width">
@@ -87,18 +167,70 @@
 						Energy
 					</h2>
 				</div>
+				
 				<div class="col span_12">
-					<h3 class="full-width text-center">Heading</h3>
-					<p class="text-center">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
+					
+					<div class="full-width">
+						<div class="col span_6">
+							<h3 class="full-width text-center">Oil & Gas</h3>
+							<p class="full-width text-center">
+								Carbon Sequestration
+								Coal
+								Conv., Un. Hydrocarbons
+								Geological, Physical Interp.
+								Oilfield Services
+								Pipeline Operation
+								Refining, Hydrocracking
+								Reservoir, Completion Eng.
+							</p>
+						</div>
+						
+						<div class="col span_6">
+							<h3 class="full-width text-center">Reg & Geopolitical</h3>
+							<p class="full-width text-center">
+								Energy & Env. Risk Mgmt.
+								Foreign Affairs Analysis
+								Lobbying
+								Political Science Analysis
+								Regulator Analysis
+							</p>
+						</div>
+					</div>
+					
+					<div class="full-width">
+						<div class="col span_6">
+							<h3 class="full-width text-center">Alt & Renewables</h3>
+							<p class="full-width text-center">
+								Ethanol & Biodiesel
+								Biomass
+								Electric-Powered Vehicles
+								Fuel Cells, Hydrogen
+								Geothermic
+								Hybrids
+								Hydro
+								Nuclear
+								Solar, Photovoltaics
+								Wave, Tidal
+								Wind
+							</p>
+						</div>
+						
+						<div class="col span_6">
+							<h3 class="full-width text-center">Utilities</h3>
+							<p class="full-width text-center">
+								Electric Trans. Reg., Policy
+								Natural Gas Storage Operators
+								Power Generation
+								PUC
+								Transmission Asset Mgmt.
+								Utility FTC Issues
+								Utility Operators
+							</p>
+						</div>
+					</div>
+					
 				</div>
-				<div class="col span_12">
-					<h3 class="full-width text-center">Heading</h3>
-					<p class="text-center">
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
-				</div>
+				
 			</div>
 		</div>
 	</div>

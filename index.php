@@ -49,14 +49,14 @@
 				<hr class="short">
 				<ul class="market-graph">
 					<li>
-						<a href="#consumer-modal-test" class="fancybox" rel="market-modals">
+						<a href="#consumer-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons person"></span>
 							<span class="market-graph-title">Consumer</span>
 							<span class="market-graph-plus">+</span>
 						</a>
 					</li>
 					<li>
-						<a href="#energy-modal-test" class="fancybox" rel="market-modals">
+						<a href="#energy-modal" class="fancybox" rel="market-modals">
 							<span class="market-icons bolt"></span>
 							<span class="market-graph-title">Energy</span>
 							<span class="market-graph-plus">+</span>
