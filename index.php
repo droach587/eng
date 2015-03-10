@@ -216,8 +216,8 @@
 					</h2>
 					<hr class="short">
 					<ul class="industry-graph">
-						<li class="col span_4"><a href="#hf-modal" class="fancybox"><span class="vertical-center"><span class="center">Hedge Funds &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/corporations"><span class="vertical-center"><span class="center">Corporations &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/hedge-funds"><span class="vertical-center"><span class="center">Hedge Funds &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/industries/corporations"><span class="vertical-center"><span class="center">Corporations &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Private Equity &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Venture Capital &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="#" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Services Firms &raquo;</span></span></a></li>

@@ -203,7 +203,7 @@
 			}
 			&.active{
 				a{
-					color: rgba(white,.6);
+					color: $brand-orange;
 				}
 			}
 		}
@@ -224,6 +224,11 @@
 				color: white !important;
 				white-space: nowrap;
 				@include box-sizing(border-box);
+			}
+			li.active{
+				a{
+					color: $brand-orange !important;
+				}
 			}
 			li > a{
 				padding: 10px;

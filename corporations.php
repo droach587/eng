@@ -27,7 +27,7 @@
     
     <body>
 	    
-		<?php include_once('includes/main-nav.php'); ?>
+		<?php $secondaryNav = true; $activeCat= "industries"; $activePage = "corporations"; include_once('includes/main-nav.php'); ?>
 		
 		<section class="hm-hero--standard">
 			<a href="/" class="hero-back"><i class="fa fa-angle-left"></i> Back Home</a>
