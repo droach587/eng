@@ -2008,6 +2008,7 @@ a, h1, h2, h4 { -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
 .section-subheading { font: normal 46px/60px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .section-secondary-subheading { font: normal 35px "opensans-light", "Arial", "Helvetica", sans-serif; color: #5d5d5d; }
+.section-secondary-subheading.flat-bottom { margin-bottom: 0; }
 
 .h3 { font-family: "opensans-light", "Arial", "Helvetica", sans-serif; display: inline-block; font-size: 28px; }
 
@@ -2017,6 +2018,8 @@ a, h1, h2, h4 { -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
 .standard-p img, .standard-ul img { display: inline-block; }
 .standard-p a, .standard-ul a { color: #fa6121; }
 .standard-p a:hover, .standard-ul a:hover { text-decoration: underline !important; }
+.standard-p.medium, .standard-ul.medium { font-size: 22px; line-height: 28px; }
+.standard-p.medium i, .standard-ul.medium i { font-size: 45px; padding-bottom: 20px; }
 
 .hm-hero-h2 { font: normal 28px/34px "opensans-light", "Arial", "Helvetica", sans-serif; display: inline-block; color: white; padding: 30px 0; margin: 0px; }
 

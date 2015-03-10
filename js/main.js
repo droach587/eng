@@ -120,15 +120,17 @@ var mainJs = (function () {
  		}
         
        function init(){
-	       scrollNav();
-	       marketModals();
-	       facilitiesDrawers();
-	       successNav();
-	       contactCondition();
-	       jumpnav();
-	       mobileMenu();
+			scrollNav();
+			marketModals();
+			facilitiesDrawers();
+			successNav();
+			contactCondition();
+			jumpnav();
+			mobileMenu();
+			$(".fancybox").fancybox({});
+			$('.flexslider').flexslider();
 	       
-	       $('.fb-close').on('click', function(e){
+			$('.fb-close').on('click', function(e){
 			   	$.fancybox.close();
 			   	
 			   	$('html, body').stop().animate({
@@ -138,10 +140,10 @@ var mainJs = (function () {
 			   	$('.primary-contact-form input#name-form-input').focus();
 			   	
 			   	e.preventDefault();
-	       });
+			});
 	       
 	       
-		   $('.market-modal-link').on('click', function(e){
+			$('.market-modal-link').on('click', function(e){
 			   
 			   $nextElement = ($('.visible-market-modal .market-modal-link.right').parent().next().length === 0)? false : $('.market-modal-link.right').parent().next();
 			   $prevElement = ($('.visible-market-modal .market-modal-link.left').parent().prev().length === 0)? false : $('.market-modal-link.left').parent().prev();
@@ -166,12 +168,12 @@ var mainJs = (function () {
 			   }
 			   
 			   e.preventDefault();
-		   });
-		   
-		   //Hide Market Modal
-		   if($('.market-modal-element').length === 1){
-			 $('.market-modal-link').addClass('hidden');  
-		   }
+			});
+			
+			//Hide Market Modal
+			if($('.market-modal-element').length === 1){
+				$('.market-modal-link').addClass('hidden');  
+			}
        }
  
  

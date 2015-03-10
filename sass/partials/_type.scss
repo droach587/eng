@@ -30,6 +30,10 @@
 		font: normal 35px $opensans-light;
 		color: $brand-medium-grey;
 		@extend .full-width;
+		&.flat-bottom{
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
 	}
 	
 	.h3{
@@ -62,6 +66,14 @@
 			color: $brand-orange;
 			&:hover{
 				text-decoration: underline !important;
+			}
+		}
+		&.medium{
+			font-size: 22px;
+			line-height: 28px;
+			i{
+				font-size: 45px;
+				padding-bottom: 20px;
 			}
 		}
 	}

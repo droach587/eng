@@ -16,77 +16,21 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="format-detection" content="telephone=no">
 		
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="/css/styles.css">
         
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
         
-        <script>
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-XXXXX-X']);
-		  _gaq.push(['_trackPageview']);
-		  (function() {
-		    var ga = document.createElement('script');
-		    ga.type = 'text/javascript';
-		    ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0];
-		    s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
+        <?php include_once('includes/google-analytics.php'); ?>
 
         
     </head>
     
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-		
-		<nav class="primary-nav standard">
-			<div class="full-width primary-nav--container">
-				<a class="primary-nav--brand-logo" href="/">
-					<img src="/img/eng-logo-lg.png" width="100" height="auto">
-				</a>
-				<a class="primary-nav--mobile-toggle">
-					<i class="fa fa-bars"></i>
-				</a>
-				<ul class="primary-nav--center-menu">
-					<li><a href="#">Home</a></li>
-					<li class="active"><a href="#">Compliance</a></li>
-					<li>
-						<a href="#">Industry Info <i class="fa fa-caret-down"></i></a>
-						<ul>
-							<li><a href="#">This link</a></li>
-							<li><a href="#">This link</a></li>
-							<li><a href="#">This link</a></li>							
-						</ul>
-					</li>
-					<li><a href="#">For Experts</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				<ul class="primary-nav--right-menu">
-					<li>
-						<a href="#">Log In <i class="fa fa-caret-down"></i></a>
-						<ul class="left">
-							<li><a href="#">Expert Log In</a></li>
-							<li><a href="#">Client Log In</a></li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">EN <i class="fa fa-caret-down"></i></a>
-						<ul class="right">
-							<li><a href="#">FR</a></li>	
-							<li><a href="#">ES</a></li>	
-							<li><a href="#">DE</a></li>						
-							<li><a href="#">ML</a></li>	
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</nav>
+	    
+		<?php include_once('includes/main-nav.php'); ?>
 		
 		<section class="hm-hero--standard">
-			<a href="#" class="hero-back"><i class="fa fa-angle-left"></i> Back Home</a>
+			<a href="/" class="hero-back"><i class="fa fa-angle-left"></i> Back Home</a>
 			<div class="hm-hero--center-container">
 				<h1 class="section-hero--heading tri-flare">Compliance</h1>
 			</div>
@@ -189,177 +133,10 @@
 				</div>
 			</div>
 			<div id="contact" class="full-width">
-				<section class="contact-section">
-					<div class="inner-container">
-						<h2 class="section-hero--heading full-width text-center">Get started</h2>
-						<p class="section-secondary-subheading full-width text-center">Give us a call on <span class="orange-highlight">(212) 359 8280</span> or fill out the form below.</p>
-						<form class="primary-contact-form">
-							<label>
-								Your Name
-								<input id="name-form-input" type="text" placeholder="Enter Your Name">
-							</label>
-							<label>
-								Email
-								<input type="Email" placeholder="Your Email">
-							</label>
-							<label>
-								Contact Number
-								<input type="text" placeholder="Enter Your Name">
-							</label>
-							<div class="label">
-								<label class="hidden-select">
-								Reason For Contact
-									<span>
-										<i class="fa fa-caret-down"></i>
-									</span>
-									<select class="form-select-option">
-										<option disabled selected>Please Select:</option>
-										<option value="volvo">Volvo</option>
-										<option value="saab">Saab</option>
-									</select>
-								</label>
-							</div>
-							<div class="hidden-select-items full-widh hidden">
-								<label>
-									Popup Item
-									<input type="text" placeholder="Enter a Subject">
-								</label>
-								<label>
-									Popup Content
-									<textarea>Enter text...</textarea>
-								</label>
-								<label>
-									&nbsp;
-									<a href="#" class="btn orange full-width text-center">submit</a>
-								</label>
-							</div>
-						</form>
-					</div>
-				</section>
+				<?php include_once('includes/main-contact.php'); ?>
 			</div>
-			<footer class="primary-footer">
-				<div class="inner-container">
-					<div class="upper-footer-row">
-						<div class="col span_3">
-							<img src="/img/eng-logo-lg.png" width="75%" height="auto">
-						</div>
-						<div class="col span_3">
-							<p>
-								<span class="white-highlight">Headquarters</span><br>
-								21 West 46th Street, 16th F.<br>
-								New York, NY 10036<br>
-								(212) 359 8280
-							</p>
-						</div>
-						<div class="col span_2">
-							<p>
-								<span class="white-highlight">Resources</span><br>
-								<a href="#">For Experts</a><br>
-								<a href="#">Client Log In</a><br>
-								<a href="#">Expert Log In</a><br>
-								<a href="#">Compliance</a><br>
-							</p>
-						</div>
-						<div class="col span_3">
-							<p>
-								<span class="white-highlight">Career Opportunities</span><br>
-								<a class="email" href="mailto:jobs@elg-llc.com">jobs@elg-llc.com</a>
-							</p>
-						</div>
-					</div>
-					<div class="middle-footer-row">
-						<div class="col span_2 text-center">
-							<p>
-								<span class="white-highlight">USA</span><br>
-								(212) 359 8280
-							</p>
-						</div>
-						<div class="col span_2 text-center">
-							<p>
-								<span class="white-highlight">India</span><br>
-								(212) 359 8280
-							</p>
-						</div>
-						<div class="col span_2 text-center">
-							<p>
-								<span class="white-highlight">Brazil</span><br>
-								(212) 359 8280
-							</p>
-						</div>
-						<div class="col span_2 text-center">
-							<p>
-								<span class="white-highlight">Taiwan</span><br>
-								(212) 359 8280
-							</p>
-						</div>
-						<div class="col span_2 text-center">
-							<p>
-								<span class="white-highlight">Korea</span><br>
-								(212) 359 8280
-							</p>
-						</div>
-						<div class="col span_2 text-center">
-							<p>
-								<span class="white-highlight">Japan</span><br>
-								(212) 359 8280
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="primary-footer-bottom">
-					<div class="inner-container">
-						<p>
-							&copy; Expert Network Group LLC 2015
-							<span class="footer-legal-link">
-								<a href="#">Privacy Policy</a> & <a href="#">Legal Notices & Terms of Use</a>
-							</span>
-						</p>
-					</div>
-				</div>
-			</footer>
+			<?php include_once('includes/main-footer.php'); ?>
 		</section>
-		
-		<div class="cs-overlay-cont hidden">
-			<div id="hedge-fund-cs" class="cs-overlay">
-				<h2 class="cs-overlay-heading">Hedge Fund Case Study</h2>
-				<div class="col span_12">
-					<p>
-						<strong>Objective:</strong><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</p>
-					<p>
-						<strong>Result:</strong><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						<br><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</p>
-					<p>	
-						<br>
-						<a class="btn orange fb-close" href="#">become a client</a>
-					</p>
-				</div>
-			</div>
-			<div id="other-fund-cs" class="cs-overlay">
-				<h2 class="cs-overlay-heading">Other Fund Case Study</h2>
-				<div class="col span_12">
-					<p>
-						<strong>Objective:</strong><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</p>
-					<p>
-						<strong>Result:</strong><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						<br><br>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</p>
-					<p>	
-						<br>
-						<a class="btn orange fb-close" href="#">become a client</a>
-					</p>
-				</div>
-			</div>
-		</div>
-		
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
