@@ -7,6 +7,7 @@
     RewriteRule ^privacy(/?$) /privacy.php [L]
     RewriteRule ^terms(/?$) /terms.php [L]
     RewriteRule ^industries(/?$) /hedge-funds.php [L]
+    RewriteRule ^experts(/?$) /experts.php [L]
     RewriteRule ^industries/corporations(/?$) /corporations.php [L]
     RewriteRule ^industries/hedge-funds(/?$) /hedge-funds.php [L]
     RewriteRule ^industries/private-equity(/?$) /private-equity.php [L]

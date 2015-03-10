@@ -49,7 +49,7 @@
 						<li><a href="https://clients.eng-llc.com/">Client Login</a></li>							
 					</ul>
 				</li>
-				<li>
+				<li class="<?php checkActive('experts', $activeCat); ?>">
 					<a href="/experts">Experts <i class="fa fa-caret-down"></i></a>
 					<ul>
 						<li><a href="https://experts.eng-llc.com/register">Become an <br>ENG Expert</a></li>

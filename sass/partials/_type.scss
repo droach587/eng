@@ -64,9 +64,6 @@
 		}
 		a{
 			color: $brand-orange;
-			&:hover{
-				text-decoration: underline !important;
-			}
 		}
 		&.medium{
 			font-size: 22px;
@@ -78,6 +75,9 @@
 			i.normal{
 				font-size: 22px;
 			}
+		}
+		&.no-padding{
+			padding: 0;
 		}
 	}
 	
