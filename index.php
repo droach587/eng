@@ -226,9 +226,37 @@
 						<li class="col span_4"><a href="/industries/life-sciences" class="fancybox"><span class="vertical-center"><span class="center">Life Sciences &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/industries/start-ups" class="fancybox"><span class="vertical-center"><span class="center">Start Ups &raquo;</span></span></a></li>
 					</ul>
-					<div class="inner-mid-section">
-						<h1 class="inner-hero--heading">Gain access to our experts today. <a class="btn orange">get started</a></h1>
+				</div>
+			</div>
+			<div class="full-width eng-wall-art">
+				<div class="mid-section--full">
+					<div class="mid-section--center">
+						<div class="vertical-center">
+							&nbsp;
+						</div>
 					</div>
+				</div>
+			</div>
+			<div class="full-width eng-wall-art dark">
+				<div class="mid-section--full">
+					<div class="mid-section--center">
+						<div class="vertical-center">
+							<h1 class="inner-hero--heading">Gain access to our experts today.&nbsp; <span class="jumpnav"><a class="btn orange" href="#contact">get started</a></span></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="full-width eng-wall-art">
+				<div class="mid-section--full">
+					<div class="mid-section--center">
+						<div class="vertical-center">
+							&nbsp;
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="full-widh">
+				<div class="inner-container">
 					<h2 class="section-subheading text-center">
 						Success Stories
 					</h2>

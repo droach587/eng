@@ -803,6 +803,20 @@
 		}
 	
 	//  ==========================================================================
+	//  Mid Section
+	//  ==========================================================================
+	
+		.eng-wall-art{
+			height: 200px;
+			background: image-url('end-wall-art-color.jpg') center center no-repeat fixed;
+			@include background-size(cover);
+			&.dark{
+				background: image-url('end-wall-art-dark.jpg') center center no-repeat fixed;	
+				@include background-size(cover);
+			}
+		}
+	
+	//  ==========================================================================
 	//  Success Stories
 	//  ==========================================================================
 	

@@ -26,7 +26,7 @@
 			</a>
 			<ul class="primary-nav--center-menu jumpnav">
 				<li><a href="/"><i class="fi fi-home"></i> Home</a></li>
-				<li><a href="/#overview">Case Studies</li>
+				<li><a href="/#casestudies">Case Studies</li>
 				<li class="<?php checkActive('industries', $activeCat); ?>">
 					<a href="/industries">Industries  <i class="fa fa-caret-down"></i></a>
 					<ul>
@@ -43,7 +43,7 @@
 				</li>
 				<li class="<?php checkActive('compliance', $activeCat); ?>"><a href="/compliance">Compliance</a></li>
 				<li>
-					<a href="/compliance">Clients <i class="fa fa-caret-down"></i></a>
+					<a href="#">Clients <i class="fa fa-caret-down"></i></a>
 					<ul>
 						<li><a href="#">Become an <br>ENG client</a></li>
 						<li><a href="#">Client Login</a></li>							
@@ -76,7 +76,7 @@
 			<li><a href="#casestudies">Case Studies</a></li>
 			<li><a href="/compliance">Compliance</a></li>
 			<li>
-				<a href="/compliance">Clients <i class="fa fa-caret-down"></i></a>
+				<a href="#">Clients <i class="fa fa-caret-down"></i></a>
 				<ul>
 					<li><a href="#">Become an <br>ENG client</a></li>
 					<li><a href="#">Client Login</a></li>							

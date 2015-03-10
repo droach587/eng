@@ -4,6 +4,8 @@
     
     #Desktop Routes
     RewriteRule ^compliance(/?$) /compliance.php [L]
+    RewriteRule ^privacy(/?$) /privacy.php [L]
+    RewriteRule ^terms(/?$) /terms.php [L]
     RewriteRule ^industries(/?$) /hedge-funds.php [L]
     RewriteRule ^industries/corporations(/?$) /corporations.php [L]
     RewriteRule ^industries/hedge-funds(/?$) /hedge-funds.php [L]

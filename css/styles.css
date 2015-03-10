@@ -2149,6 +2149,9 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
 .industry-graph li .vertical-center { position: absolute; display: table; top: 0px; left: 0px; width: 100%; height: 100%; }
 .industry-graph li .vertical-center .center { display: table-cell; vertical-align: middle; height: 100%; }
 
+.eng-wall-art { height: 200px; background: url('/img/end-wall-art-color.jpg?1426018242') center center no-repeat fixed; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+.eng-wall-art.dark { background: url('/img/end-wall-art-dark.jpg?1426018261') center center no-repeat fixed; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+
 .success-stories { padding: 30px 0 10px 0; }
 .success-stories .flexslider { margin: 0; }
 .success-stories .flex-direction-nav, .success-stories .flex-control-nav { display: none; visibility: hidden; }
