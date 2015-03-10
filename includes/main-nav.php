@@ -25,7 +25,6 @@
 				<i class="fa fa-bars"></i>
 			</a>
 			<ul class="primary-nav--center-menu jumpnav">
-				<li><a href="/"><i class="fi fi-home"></i> Home</a></li>
 				<li><a href="/#casestudies">Case Studies</li>
 				<li class="<?php checkActive('industries', $activeCat); ?>">
 					<a href="/industries">Industries  <i class="fa fa-caret-down"></i></a>
@@ -56,6 +55,7 @@
 						<li><a href="https://experts.eng-llc.com/">Expert Login</a></li>							
 					</ul>
 				</li>
+				<li class="jumpnav"><a href="#contact">Contact</a></li>
 			</ul>
 			<ul class="primary-nav--right-menu hidden">
 			</ul>
