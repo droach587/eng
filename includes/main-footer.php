@@ -15,10 +15,10 @@
 			<div class="col span_2">
 				<p>
 					<span class="white-highlight">Resources</span><br>
-					<a href="#">Experts</a><br>
-					<a href="#">Client Log In</a><br>
-					<a href="#">Expert Log In</a><br>
-					<a href="#">Compliance</a><br>
+					<a href="/experts">Experts</a><br>
+					<a href="https://clients.eng-llc.com/">Client Log In</a><br>
+					<a href="https://experts.eng-llc.com/">Expert Log In</a><br>
+					<a href="/compliance">Compliance</a><br>
 				</p>
 			</div>
 			<div class="col span_3">
@@ -70,7 +70,7 @@
 	<div class="primary-footer-bottom">
 		<div class="inner-container">
 			<p>
-				&copy; Expert Network Group LLC 2015
+				&copy;Expert Network Group LLC <?php echo date('Y'); ?>
 				<span class="footer-legal-link">
 					<a href="/privacy">Privacy Policy</a> & <a href="/terms">Legal Notices & Terms of Use</a>
 				</span>

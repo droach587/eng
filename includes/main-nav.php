@@ -45,15 +45,15 @@
 				<li>
 					<a href="#">Clients <i class="fa fa-caret-down"></i></a>
 					<ul>
-						<li><a href="#">Become an <br>ENG client</a></li>
-						<li><a href="#">Client Login</a></li>							
+						<li class="jumpnav"><a href="#contact">Become an <br>ENG client</a></li>
+						<li><a href="https://clients.eng-llc.com/">Client Login</a></li>							
 					</ul>
 				</li>
 				<li>
-					<a href="/compliance">Experts <i class="fa fa-caret-down"></i></a>
+					<a href="/experts">Experts <i class="fa fa-caret-down"></i></a>
 					<ul>
-						<li><a href="#">Become an <br>ENG Expert</a></li>
-						<li><a href="#">Expert Login</a></li>							
+						<li><a href="https://experts.eng-llc.com/register">Become an <br>ENG Expert</a></li>
+						<li><a href="https://experts.eng-llc.com/">Expert Login</a></li>							
 					</ul>
 				</li>
 			</ul>
@@ -78,15 +78,15 @@
 			<li>
 				<a href="#">Clients <i class="fa fa-caret-down"></i></a>
 				<ul>
-					<li><a href="#">Become an <br>ENG client</a></li>
-					<li><a href="#">Client Login</a></li>							
+					<li class="jumpnav"><a href="#contact">Become an <br>ENG client</a></li>
+					<li><a href="https://clients.eng-llc.com/">Client Login</a></li>						
 				</ul>
 			</li>
 			<li>
-				<a href="/compliance">Experts <i class="fa fa-caret-down"></i></a>
+				<a href="/experts">Experts <i class="fa fa-caret-down"></i></a>
 				<ul>
-					<li><a href="#">Become an <br>ENG Expert</a></li>
-					<li><a href="#">Expert Login</a></li>							
+					<li><a href="https://experts.eng-llc.com/register">Become an <br>ENG Expert</a></li>
+					<li><a href="https://experts.eng-llc.com/">Expert Login</a></li>							
 				</ul>
 			</li>
 		</ul>

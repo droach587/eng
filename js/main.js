@@ -135,6 +135,8 @@ var mainJs = (function () {
 			contactCondition();
 			jumpnav();
 			mobileMenu();
+			
+			
 			$(".fancybox").fancybox({});
 			$('.flexslider').flexslider();
 	       
