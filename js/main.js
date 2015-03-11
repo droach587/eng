@@ -44,6 +44,15 @@ var mainJs = (function () {
 				
 			});
 			
+			//Copy Input Vals
+			$('#name-form-input, #email-form-input, #tel-form-input ').on('blur', function(){
+				copyEl = $(this).attr('data-target');
+				
+				//Set both attr and val
+				$(copyEl).val($(this).val());
+				$(copyEl).attr('value', $(this).val());
+			});
+			
 		}
 	
 		function successNav(){
@@ -152,38 +161,7 @@ var mainJs = (function () {
 			   	e.preventDefault();
 			});
 	       
-	       
-			$('.market-modal-link').on('click', function(e){
-			   
-			   $nextElement = ($('.visible-market-modal .market-modal-link.right').parent().next().length === 0)? false : $('.market-modal-link.right').parent().next();
-			   $prevElement = ($('.visible-market-modal .market-modal-link.left').parent().prev().length === 0)? false : $('.market-modal-link.left').parent().prev();
-			   
-			   
-			   if($(this).hasClass('right')){
-				   if($nextElement != false){
-					   $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden');
-					   $nextElement.removeClass('hidden').addClass('visible-market-modal');
-				   }else{
-					    $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden');
-					    $('.first-modal').removeClass('hidden').addClass('visible-market-modal');
-				   }
-			   }else{
-				   if($prevElement != false){
-					   $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden');
-					   $prevElement.removeClass('hidden').addClass('visible-market-modal');
-				   }else{
-					   $('.visible-market-modal').removeClass('visible-market-modal').addClass('hidden'); 
-					   $('.last-modal').removeClass('hidden').addClass('visible-market-modal');
-				   }
-			   }
-			   
-			   e.preventDefault();
-			});
-			
-			//Hide Market Modal
-			if($('.market-modal-element').length === 1){
-				$('.market-modal-link').addClass('hidden');  
-			}
+
        }
  
  

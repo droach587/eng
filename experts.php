@@ -8,8 +8,8 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ENG | Expert Network Group</title>
-        <meta name="description" content="">
+        <title>ENG ||| Experts | Expert Network Group, LLC</title>
+        <meta name="description" content="Our exclusive network contains experts from all industries and along every point of the supply chain, including: C-level executives, doctors, researchers, distributors, resellers, suppliers, manufacturers, customers, among many others.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -38,7 +38,7 @@
 		
 		<section class="site-container standard-push">
 			<div class="inner-container">
-				<div class="content-wrapper">
+				<div class="content-wrapper for-experts">
 					<p class="standard-p">
 						Thank you for your interest in sharing your knowledge through ENG. Our exclusive network contains experts from all industries and along every point of the supply chain, including: C-level executives, doctors, researchers, distributors, resellers, suppliers, manufacturers, customers, among many others. They understand the dynamics and high-level trends of their industries, which our clients find indispensable to the due diligence process.
 						<br><br>
@@ -71,7 +71,7 @@
 					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Participate in ENG Events</p>
 					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Receive Compensation </p>
 					
-					<h2 class="section-subheading text-center">
+					<h2 id="faqs" class="section-subheading text-center">
 						Frequently Asked Questions:
 					</h2>		
 					<hr>

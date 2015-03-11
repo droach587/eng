@@ -8,13 +8,15 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ENG | Expert Network Group</title>
-        <meta name="description" content="">
+        <title>ENG ||| Privacy Policy | Expert Network Group, LLC</title>
+        <meta name="description" content="ENG Privacy Policy and Terms.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="format-detection" content="telephone=no">
+		
+		<meta name="robots" content="noindex">
 		
         <link rel="stylesheet" href="/css/styles.css">
         

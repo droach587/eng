@@ -30,6 +30,16 @@
 		
 		.content-wrapper{
 			padding: 0;
+			.col{
+				width: 100%;
+			}
+			&.for-experts{
+				.btn{
+					width: 100%;
+					text-align: center;
+					margin-top: 5px;
+				}
+			}
 		}
 		
 		.primary-nav--container{
@@ -264,6 +274,26 @@
 		}
 	
 	//  ==========================================================================
+	//  Wall Art Element
+	//  ==========================================================================
+	
+		.eng-wall-art{
+			&.light{
+				display: none;
+				visibility: hidden;
+				background-image: none;
+			}
+			&.dark{
+				background-color: #222;
+				background-image: none;
+				.btn{
+					margin-top: 10px;
+					clear: left;
+				}
+			}
+		}
+	
+	//  ==========================================================================
 	//  Simple Numbers
 	//  ==========================================================================
 	
@@ -400,7 +430,8 @@
 	//  Case Study
 	//  ==========================================================================
 	
-		.cs-overlay{
+		.cs-overlay,
+		.market-modal{
 			width: 100%;
 			float: left;
 			position: relative;
@@ -411,7 +442,7 @@
 				line-height: 34px;
 			}
 			p{
-				font-size: 13px;
+				font-size: 12px;
 				line-height: 18px;
 			}
 			.btn{
@@ -419,6 +450,26 @@
 				padding: 10px 0;
 				width: 100%;
 				text-align: center;
+			}
+			
+			.col{
+				width: 100%;
+				clear: left;
+				text-align: center;
+				padding: 10px 10px;
+				p{
+					text-align: center;
+				}
+				&.span_12{
+					padding: 10px 10px;
+				}
+			}
+			h2{
+				font-size: 28px;
+			}
+			h3{
+				font-size: 14px;
+				font-family: $opensans-semibold;
 			}
 		}
 		

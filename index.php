@@ -8,8 +8,8 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ENG | Expert Network Group</title>
-        <meta name="description" content="">
+        <title>ENG ||| Expert Network Group, LLC</title>
+        <meta name="description" content="ENG is a top expert network that provides institutional clients with access to a network of carefully vetted experts. We focus on custom research.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -156,7 +156,7 @@
 				<div class="mid-section--full">
 					<div class="mid-section--center">
 						<div class="vertical-center">
-							<h1 class="section-hero--heading tri-flare">The ENG difference</h1>
+							<h1 class="section-hero--heading tri-flare">The ENG Difference</h1>
 						</div>
 					</div>
 				</div>
@@ -216,19 +216,19 @@
 					</h2>
 					<hr class="short">
 					<ul class="industry-graph">
-						<li class="col span_4"><a href="/industries/hedge-funds"><span class="vertical-center"><span class="center">Hedge Funds &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/corporations"><span class="vertical-center"><span class="center">Corporations &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/private-equity" class="fancybox"><span class="vertical-center"><span class="center">Private Equity &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/vanture-capital" class="fancybox"><span class="vertical-center"><span class="center">Venture Capital &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/professional-services-firms" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Services Firms &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/investment-banking" class="fancybox"><span class="vertical-center"><span class="center">Investment Banking &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/law" class="fancybox"><span class="vertical-center"><span class="center">Law &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/life-sciences" class="fancybox"><span class="vertical-center"><span class="center">Life Sciences &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/industries/start-ups" class="fancybox"><span class="vertical-center"><span class="center">Start Ups &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/hedge-funds"><span class="vertical-center"><span class="center">Hedge Funds &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/corporations"><span class="vertical-center"><span class="center">Corporations &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/private-equity" class="fancybox"><span class="vertical-center"><span class="center">Private Equity &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/venture-capital" class="fancybox"><span class="vertical-center"><span class="center">Venture Capital &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/professional-services-firms" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Services Firms &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/investment-banking" class="fancybox"><span class="vertical-center"><span class="center">Investment Banking &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/law" class="fancybox"><span class="vertical-center"><span class="center">Law &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/life-sciences" class="fancybox"><span class="vertical-center"><span class="center">Life Sciences &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/start-ups" class="fancybox"><span class="vertical-center"><span class="center">Start Ups &raquo;</span></span></a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="full-width eng-wall-art">
+			<div class="full-width eng-wall-art light">
 				<div class="mid-section--full">
 					<div class="mid-section--center">
 						<div class="vertical-center">
@@ -246,7 +246,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="full-width eng-wall-art">
+			<div class="full-width eng-wall-art light">
 				<div class="mid-section--full">
 					<div class="mid-section--center">
 						<div class="vertical-center">

@@ -8,8 +8,8 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ENG | Expert Network Group</title>
-        <meta name="description" content="">
+        <title>ENG ||| Corporations | Expert Network Group, LLC</title>
+        <meta name="description" content="In-depth Expertise On-DemandOur experts support your strategic decision-making across all corporate functions.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -74,19 +74,19 @@
 						<h2 class="full-width section-subheading skinny text-center">Use Cases</h2>
 						<hr>
 						<div class="full-width">
-							<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-tasks orange-highlight"></i> Strategy / Competitive Intelligence</h4>
+							<h4 class="section-secondary-subheading flat-bottom">Strategy / Competitive Intelligence</h4>
 							<p class="standard-p">Monitor the competitive landscape to identify emerging threats & opportunities early. Engage seasoned executives for strategic input on market entry, product positioning, and new technologies.</p>
 							<br>
-							<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-wrench orange-highlight"></i> C-Suite</h4>
+							<h4 class="section-secondary-subheading flat-bottom"> C-Suite</h4>
 							<p class="standard-p">Develop strategies and internal structures that drive revenue growth and create operational efficiencies. Draw on our deep pool of expertise to identify new opportunities and quickly strike down bad ideas.</p>
 							<br>
-							<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-exchange orange-highlight"></i> Mergers & Acquisitions</h4>
+							<h4 class="section-secondary-subheading flat-bottom">Mergers & Acquisitions</h4>
 							<p class="standard-p">Perform operational due diligence on target companies and assess targets’ industry landscape and trends. Explore synergies and adjacent market opportunities that drive successful transactions.</p>
 							<br>
-							<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-cogs orange-highlight"></i> R&D / Product Development</h4>
+							<h4 class="section-secondary-subheading flat-bottom"> R&D / Product Development</h4>
 							<p class="standard-p">Engage specialized technical expertise to evaluate and refine product ideas from conception to launch. Explore customer requirements & pain points through phone consultations or targeted B2B surveys.</p>
 							<br>
-							<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-heart orange-highlight"></i> Corporate Social Responsibility</h4>
+							<h4 class="section-secondary-subheading flat-bottom"> Corporate Social Responsibility</h4>
 							<p class="standard-p">Make an impact on your triple bottom line by leveraging our expertise to identify promising opportunities for improvement.</p>
 						</div>
 					</div>	
@@ -153,7 +153,7 @@
 									<p class="standard-p">Engage technical experts and end-users to identify and size the market for new chemical applications or formulations. </p>
 								</div>
 								<div class="col span_6">
-									<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-home orange-highlight"></i><br> Public Sector</h4>
+									<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-gears orange-highlight"></i><br> Public Sector</h4>
 									<br>
 									<p class="standard-p">Explore private sector best practices and utilize our range of expertise to locate and execute operational improvements.</p>
 								</div>

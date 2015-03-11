@@ -8,8 +8,8 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ENG | Expert Network Group</title>
-        <meta name="description" content="">
+        <title>ENG ||| Law | Expert Network Group, LLC</title>
+        <meta name="description" content="You need to tap specialized expertise to assist in the legal process.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />

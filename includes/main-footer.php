@@ -24,7 +24,7 @@
 			<div class="col span_3">
 				<p>
 					<span class="white-highlight">Career Opportunities</span><br>
-					<a class="email" href="mailto:jobs@elg-llc.com">jobs@elg-llc.com</a>
+					<a class="email" href="mailto:jobs@eng-llc.com">jobs@eng-llc.com</a>
 				</p>
 			</div>
 		</div>

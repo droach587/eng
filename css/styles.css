@@ -2222,6 +2222,8 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
   .inner-mid-section { margin: 20px 0 0 -30px; padding: 45px 30px 45px 30px; }
   .inner-mid-section .btn { padding: 10px 0; width: 100%; margin: 10px 0; } }
 @media screen and (max-width: 960px) { .content-wrapper { padding: 0; }
+  .content-wrapper .col { width: 100%; }
+  .content-wrapper.for-experts .btn { width: 100%; text-align: center; margin-top: 5px; }
   .primary-nav--container { background: black; overflow: scroll; -webkit-overflow-scrolling: touch; }
   .primary-nav--container.open { height: 400px; }
   .primary-nav--container.open .primary-nav--brand-logo { margin-bottom: 30px; }
@@ -2263,6 +2265,9 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
   .global-reach-graph .span_4 { width: 100%; }
   .global-reach-graph .span_4.graph-spacer { display: none; visibility: hidden; }
   .global-reach-graph .h3 { font-size: 20px; }
+  .eng-wall-art.light { display: none; visibility: hidden; background-image: none; }
+  .eng-wall-art.dark { background-color: #222; background-image: none; }
+  .eng-wall-art.dark .btn { margin-top: 10px; clear: left; }
   .simple-numbers .col { width: 100%; text-align: center; padding: 10px; }
   .simple-numbers .circle-num { font-size: 28px; padding: 20px 26px; }
   .simple-numbers .h3 { font-size: 20px; }
@@ -2286,10 +2291,15 @@ hr { width: 10%; left: 50%; margin: 0 0 0 -5%; border-top: 1px solid #5d5d5d; pa
   .market-modal-element .col { width: 100%; padding: 0 24px 0 24px; }
   .market-modal-close { top: 5px; }
   .marked-modal-title { font-size: 28px; top: 27px; }
-  .cs-overlay { width: 100%; float: left; position: relative; padding: 0 60px 0 60px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-  .cs-overlay .cs-overlay-heading { font-size: 32px; line-height: 34px; }
-  .cs-overlay p { font-size: 13px; line-height: 18px; }
-  .cs-overlay .btn { font-size: 14px; padding: 10px 0; width: 100%; text-align: center; }
+  .cs-overlay, .market-modal { width: 100%; float: left; position: relative; padding: 0 60px 0 60px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+  .cs-overlay .cs-overlay-heading, .market-modal .cs-overlay-heading { font-size: 32px; line-height: 34px; }
+  .cs-overlay p, .market-modal p { font-size: 12px; line-height: 18px; }
+  .cs-overlay .btn, .market-modal .btn { font-size: 14px; padding: 10px 0; width: 100%; text-align: center; }
+  .cs-overlay .col, .market-modal .col { width: 100%; clear: left; text-align: center; padding: 10px 10px; }
+  .cs-overlay .col p, .market-modal .col p { text-align: center; }
+  .cs-overlay .col.span_12, .market-modal .col.span_12 { padding: 10px 10px; }
+  .cs-overlay h2, .market-modal h2 { font-size: 28px; }
+  .cs-overlay h3, .market-modal h3 { font-size: 14px; font-family: "opensans-semibold", "Arial", "Helvetica", sans-serif; }
   .fancybox-prev span { left: 0px; }
   .fancybox-next span { right: 0px; }
   .fancybox-inner { -webkit-overflow-scrolling: touch; } }

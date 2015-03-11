@@ -8,8 +8,8 @@
         
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ENG | Expert Network Group</title>
-        <meta name="description" content="">
+        <title>ENG ||| Compliance | Expert Network Group, LLC</title>
+        <meta name="description" content="ENG is committed to delivering relevant experts in a prompt, fully transparent manner. Our red-carpet service provides the most prudent and customized service available for both clients and experts.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />
