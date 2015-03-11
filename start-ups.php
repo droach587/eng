@@ -57,7 +57,7 @@
 								<p class="standard-p medium"><i class="fi fi-plus orange-highlight normal"></i> Iterate faster by understanding customer pain points.</p>
 							</div>
 							<div class="col span_12">
-								<p class="standard-p medium"><i class="fi fi-plus orange-highlight normal"></i> Evaluate Competitive threats.</p>
+								<p class="standard-p medium"><i class="fi fi-plus orange-highlight normal"></i> Evaluate competitive threats.</p>
 							</div>
 						</div>
 						<div class="full-width">

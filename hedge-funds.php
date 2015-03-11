@@ -41,7 +41,7 @@
 				<div class="content-wrapper">
 
 					<h2 class="full-width section-subheading skinny text-center orange-copy no-margin">Our investable universe is large and the sectors you cover are constantly evolving.</h2>
-					<p class="text-center standard-p">ENG experts provide perspective into the supply chain so that you can construct your own mosaic of understanding.  The types of funds that ENG works with include:</p>
+					<p class="text-center standard-p">ENG experts provide perspectives into the supply chain so that you can construct your own mosaic of understanding.  The types of funds that ENG works with include:</p>
 					<hr class="margin-top-20">
 					
 					<div class="full-width margin-top-20 text-center">
@@ -62,7 +62,7 @@
 								<p class="standard-p">Connect you with former government and agency officials, policy experts, economists, and attorneys who provide insight into the macro environment and regulatory decision-making process so you can better assess risk. </p>
 								<br>
 								<h4 class="section-secondary-subheading flat-bottom">Special Situations</h4>
-								<p class="standard-p">Support alternate investment strategies including activist and arbitrage through project-specific due diligence and extended engagements. We specialize in locating the exact expert match as per your search criteria and arrange custom engagements ranging from short-term consulting, to long-term advisory roles and board placements.</p>
+								<p class="standard-p">Support alternative investment strategies including activist and arbitrage through project-specific due diligence and extended engagements. We specialize in locating the exact expert match as per your search criteria and arrange custom engagements ranging from short-term consulting, to long-term advisory roles and board placements.</p>
 							</div>
 						</div>
 					</div>

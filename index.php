@@ -269,7 +269,7 @@
 										<h3 class="success-heading">hedge funds</h3>
 										<a class="success-article fancybox" href="#hedge-fund-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0007_HedgeFund.jpg" width="100%" height="auto">
-											<h2 class="h2">3D / Additive Printing</h2>
+											<h2 class="h2">3D Printing / Additive Manufacturing</h2>
 											<p>A long/short investor needed to understand current dynamics within the 3D / additive printing distribution channel.<br clear="all"> &nbsp;</p>
 											<span class="btn orange">Read Success Story</span>
 										</a>
@@ -278,7 +278,7 @@
 										<h3 class="success-heading">corporations</h3>
 										<a class="success-article fancybox" href="#corporation-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0008_Corporations.jpg" width="100%" height="auto">
-											<h2 class="h2">Global Presence</h2>
+											<h2 class="h2">Global <br>Presence</h2>
 											<p>The engineering, procurement, and construction division of a multinational corporation was interested in expanding its global presence.</p>
 											<span class="btn orange">Read Success Story</span>
 										</a>
@@ -287,7 +287,7 @@
 										<h3 class="success-heading">private equity</h3>
 										<a class="success-article fancybox" href="#private-equity-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0006_Private Equity.jpg" width="100%" height="auto">
-											<h2 class="h2">Market Insight</h2>
+											<h2 class="h2">Market <br>Insight</h2>
 											<p>A private equity firm was interested in acquiring an orphan brand laundry detergent manufacturer and needed to understand the market.</p>
 											<span class="btn orange">Read Success Story</span>
 										</a>
@@ -309,6 +309,44 @@
 											<img src="/img/cs-images/9_0000_Startups.jpg" width="100%" height="auto">
 											<h2 class="h2">Pre-disease Management</h2>
 											<p>An entrepreneur iterating a platform for pre-disease management needed to understand the current landscape.</p>
+											<span class="btn orange">Read Success Story</span>
+										</a>
+									</div>
+									<div class="col span_4">
+										<h3 class="success-heading">advertising agency</h3>
+										<a class="success-article fancybox" href="#airline-cs" rel="cs-overlay">
+											<img src="/img/cs-images/9_0005_ProfessionalServices.jpg" width="100%" height="auto">
+											<h2 class="h2">C-Suite <br>Access</h2>
+											<p>An advertising agency was preparing a pitch for the C-suite of a major airline. <br><br></p>
+											<span class="btn orange">Read Success Story</span>
+										</a>
+									</div>
+								</li>
+								<li>
+									<div class="col span_4">
+										<h3 class="success-heading">investment bank</h3>
+										<a class="success-article fancybox" href="#investment-bank-cs" rel="cs-overlay">
+											<img src="/img/cs-images/9_0003_InvestmentBanks.jpg" width="100%" height="auto">
+											<h2 class="h2">Market Dynamics</h2>
+											<p>An investment bank advising on the sale of an ethanol refining company needed to understand the dynamics of the biofuel market.</p>
+											<span class="btn orange">Read Success Story</span>
+										</a>
+									</div>
+									<div class="col span_4">
+										<h3 class="success-heading">life sciences</h3>
+										<a class="success-article fancybox" href="#life-sciences-cs" rel="cs-overlay">
+											<img src="/img/cs-images/9_0001_LifeSciences.jpg" width="100%" height="auto">
+											<h2 class="h2">Target Diagnostics</h2>
+											<p>A medical device manufacturer was developing a diagnostic platform but needed to refine target market. <br><br></p>
+											<span class="btn orange">Read Success Story</span>
+										</a>
+									</div>
+									<div class="col span_4">
+										<h3 class="success-heading">law firm</h3>
+										<a class="success-article fancybox" href="#law-firm-cs" rel="cs-overlay">
+											<img src="/img/cs-images/9_0002_LawFirms.jpg" width="100%" height="auto">
+											<h2 class="h2">Legal Support</h2>
+											<p>A law firm in the early stages of a patent dispute needed to bolster its case. <br><br><br></p>
 											<span class="btn orange">Read Success Story</span>
 										</a>
 									</div>

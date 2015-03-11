@@ -83,7 +83,7 @@
 				A venture fund was interested in a mobile money transfer opportunity.
 			</p>
 			<p class="col span_5 text-left">
-				<strong>ENG provided experts with perspective from: </strong><br>
+				<strong>ENG provided experts with perspectives from: </strong><br>
 				<i class="fi fi-plus orange-highlight"></i> Financial Institutions<br>
 				<i class="fi fi-plus orange-highlight"></i> Telecom Operators<br>
 				<i class="fi fi-plus orange-highlight"></i> Hardware Manufacturers<br>
@@ -118,7 +118,111 @@
 			<p class="col span_1 text-left">&nbsp;</p>
 			<p class="col span_6 text-left">
 				<strong>Result: </strong><br>
-				Client was able to refine his platform's capabilities to target certain use cases as well as adapt his team's sales process to users' purchase & reimbursement processes.
+				Client was able to refine his platform's capabilities to target certain use cases, as well as adapt his team's sales process to users' purchase & reimbursement processes.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="airline-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Advertising Agency Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				An advertising agency was preparing a pitch for the C-suite of a major airline.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Airline Technology Executives<br>
+				<i class="fi fi-plus orange-highlight"></i> Airline Financial Executives<br>
+				<i class="fi fi-plus orange-highlight"></i> Marketing Managers<br>
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client was able to distinguish their pitch from the incumbent in the areas of digital marketing, customer engagement/loyalty, and B2C technology deployment throughout the customer experience.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="investment-bank-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Investment Bank Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				An investment bank advising on the sale of an ethanol refining company needed to understand the dynamics of the biofuel market.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Ethanol & Grain Suppliers<br>
+				<i class="fi fi-plus orange-highlight"></i> Fuel Storage Executives<br>
+				<i class="fi fi-plus orange-highlight"></i> Oil & Gas Executives<br>
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client was able to highlight the competitive strengths of the company and position it for sale to a strategic buyer.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="life-sciences-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Life Sciences Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				A medical device manufacturer was developing a diagnostic platform but needed to refine target market.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Laboratory Managers<br>
+				<i class="fi fi-plus orange-highlight"></i> Hospital CIOs<br>
+				<i class="fi fi-plus orange-highlight"></i> Big Data / EMR Experts<br>
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client broadened their product & service offering to include cloud-based analytics capabilities and launched product.
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="full-width text-center">
+				<br>
+				<a class="btn orange fb-close" href="#">become a client</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="law-firm-cs" class="cs-overlay">
+		<h2 class="cs-overlay-heading">Law Firm Case Study</h2>
+		<div class="col span_12">
+			<p class="full-width text-left">
+				<strong>Background:</strong><br>
+				A law firm in the early stages of a patent dispute needed to bolster its case.
+			</p>
+			<p class="col span_5 text-left">
+				<strong>ENG provided access to <br>a number of experts for the<br> client to evaluate: </strong><br>
+				<i class="fi fi-plus orange-highlight"></i> Credibility<br>
+				<i class="fi fi-plus orange-highlight"></i> Conflicts/Bias<br>
+				<i class="fi fi-plus orange-highlight"></i> Presentation Skills<br>
+			</p>
+			<p class="col span_1 text-left">&nbsp;</p>
+			<p class="col span_6 text-left">
+				<strong>Result: </strong><br>
+				Client selected the expert that was most suitable to serve as a witness.
 			</p>
 			<p class="col span_1 text-left">&nbsp;</p>
 			<p class="full-width text-center">

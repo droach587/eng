@@ -9,7 +9,7 @@
 					<span class="white-highlight">Headquarters</span><br>
 					<a href="https://www.google.com/maps?q=21+West+46th+Street&es_sm=91&um=1&ie=UTF-8&sa=X&ei=QlX_VILZBqi1sQT224K4CQ&ved=0CAcQ_AUoAQ" target="_blank">21 West 46th Street</a>,<br> 16th floor <br>
 					New York, NY 10036<br>
-					1.212.359.8280
+					+1.212.359.8280
 				</p>
 			</div>
 			<div class="col span_2">
@@ -32,7 +32,7 @@
 			<div class="col span_2 text-center">
 				<p>
 					<span class="white-highlight">USA</span><br>
-					1.212.359.8280
+					+1.212.359.8280
 				</p>
 			</div>
 			<div class="col span_2 text-center">
@@ -56,7 +56,7 @@
 			<div class="col span_2 text-center">
 				<p>
 					<span class="white-highlight">South Korea</span><br>
-					+82.026.433.9515 
+					+82.26.433.9515 
 				</p>
 			</div>
 			<div class="col span_2 text-center">

@@ -137,7 +137,7 @@
 								<div class="col span_6">
 									<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-building orange-highlight"></i><br>Industrials</h4>
 									<br>
-									<p class="standard-p">Leverage expertise to evaluate market trends, growth opportunities, and adjacent markets, and identify strategic acquisition targets.</p>
+									<p class="standard-p">Leverage expertise to evaluate market trends, growth opportunities, and adjacent markets, as well as identify strategic strategic acquisition targets.</p>
 								</div>
 								<div class="col span_6">
 									<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-car orange-highlight"></i><br> Automotive</h4>
@@ -150,7 +150,7 @@
 								<div class="col span_6">
 									<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-flask orange-highlight"></i><br> Chemicals</h4>
 									<br>
-									<p class="standard-p">Engage technical experts and end-users to identify and size the market for new chemical applications or formulations. </p>
+									<p class="standard-p">Engage technical experts and end-users to identify and size markets for new chemical applications or formulations. </p>
 								</div>
 								<div class="col span_6">
 									<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-gears orange-highlight"></i><br> Public Sector</h4>

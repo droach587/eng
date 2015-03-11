@@ -83,14 +83,16 @@ var mainJs = (function () {
 			
 			$('.facilities-graph > li > a').on('click', function(e){
 				
-				clearOpen();
+				if(!$(this).parent().hasClass('open')){
+					clearOpen();
+				}
 				
 				$(this).parent().toggleClass('open');
 				$(this).parent().find('.fa-plus').toggleClass('fa-minus');
-				
+
 				setTimeout(function(){
 					clearOpen();
-				}, 10000)
+				}, 10000);
 				
 				e.preventDefault();
 			});
