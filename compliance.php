@@ -76,13 +76,13 @@
 						<br><br>
 						&bull; For executives recently departed from a publicly-traded co., ENG imposes a waiting period prior to having them engage in a 1x1 call (can be customized to your firm's standards, but at a minimum, earnings for the quarter in which they were last employed must have been announced)
 						<br><br>
-						&bull; Ongoing Expert training &amp; continuing education | <a href="#">VIEW DEMO</a>
+						&bull; Ongoing Expert training &amp; continuing education
 					</p>
 					<h3 class="h3">
 						ENG EXPERT VETTING & RECRUITMENT
 					</h3>
 					<p class="standard-p">
-						&bull; All Experts must sign and agree to terms and conditions specified in ENG's Expert Agreement | <a href="#">VIEW ENG TERMS &amp; CONDITIONS</a>
+						&bull; All Experts must sign and agree to terms and conditions specified in ENG's Expert Agreement | <a href="/terms">VIEW ENG TERMS &amp; CONDITIONS</a>
 						<br><br>
 						&bull; Expert must furnish last five (5) years of employment history (including background checks)
 						<br><br>
@@ -126,7 +126,7 @@
 					</p>
 					<h3 class="h3">ENG CORPORATE DATABASE</h3>
 					<p class="standard-p">
-						&bull; ENG understands that current and prospective experts may have certain obligations related to 1x1 interactions with our clients. Therefore, ENG maintains a Corporate Database of firms who wish to specify how their employees interact with ENG's clients. Employers globally can contact ENG directly to outline their terms and conditions | <a href="#">REGISTER COMPANY</a>
+						&bull; ENG understands that current and prospective experts may have certain obligations related to 1x1 interactions with our clients. Therefore, ENG maintains a Corporate Database of firms who wish to specify how their employees interact with ENG's clients. Employers globally can contact ENG directly to outline their terms and conditions<br><br><span class="jumpnav"><a class="btn orange" href="#contact">REGISTER COMPANY</a></span>
 						<br><br>
 						*ERMS - Expert Relationship Management System
 					</p>
