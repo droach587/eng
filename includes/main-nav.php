@@ -42,7 +42,7 @@
 				</li>
 				<li class="<?php checkActive('compliance', $activeCat); ?>"><a href="/compliance">Compliance</a></li>
 				<li>
-					<a href="#">For Clients <i class="fa fa-caret-down"></i></a>
+					<a href="#contact">For Clients <i class="fa fa-caret-down"></i></a>
 					<ul>
 						<li class="jumpnav"><a href="#contact">Become an <br>ENG client</a></li>
 						<li><a href="https://clients.eng-llc.com/">Client Login</a></li>							
@@ -77,7 +77,7 @@
 			<li><a href="#casestudies">Case Studies</a></li>
 			<li><a href="/compliance">Compliance</a></li>
 			<li>
-				<a href="#">For Clients <i class="fa fa-caret-down"></i></a>
+				<a href="#contact">For Clients <i class="fa fa-caret-down"></i></a>
 				<ul>
 					<li class="jumpnav"><a href="#contact">Become an <br>ENG client</a></li>
 					<li><a href="https://clients.eng-llc.com/">Client Login</a></li>						
