@@ -80,7 +80,7 @@
 							<i class="fa fa-question-circle normal"></i> Why was I contacted?
 						</p>
 						<p class="standard-p full-width text-left no-padding">
-							We reached out to you beacuse your background & experiences seem relevant for one of our clients' projects. Your ENG Research contact will speak with you about your interest and suitability for different types of events. If you weren't directly contacted by ENG, feel free to apply to our network, and we’ll reach out to learn more about your expertise.
+							We reached out to you because your background & experiences seem relevant for one of our clients' projects. Your ENG Research contact will speak with you about your interest and suitability for different types of events. If you weren't directly contacted by ENG, feel free to apply to our network, and we’ll reach out to learn more about your expertise.
 						</p>
 					</div>
 					<div class="full-width margin-top-40">

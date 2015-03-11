@@ -172,7 +172,7 @@
 						<div class="full-width">
 							<div class="col span_4 text-center">
 								<h3 class="h3"><span>&nbsp;<br></span><i class="fi fi-check"></i> Full Service</h3>
-								<p>Think of us as an extention of your team.  We shift with you every step of the way as you refine your understanding of the topics of interest.</p>
+								<p>Think of us as an extension of your team.  We shift with you every step of the way as you refine your understanding of the topics of interest.</p>
 							</div>
 							<div class="col span_4 text-center">
 								<h3 class="h3"><span>&nbsp;<br></span><i class="fi fi-check"></i>  Global Reach</h3>
@@ -207,7 +207,7 @@
 							</div>
 							<div class="col span_4 text-center">
 								<h3 class="h3"><i class="fi fi-check"></i> The Differentiated Provider</h3>
-								<p>Replacing incumbents and creating efficiencies by delivering the most relevent experts.  </p>
+								<p>Replacing incumbents and creating efficiencies by delivering the most relevant experts.  </p>
 							</div>
 						</div>
 					</div>

@@ -112,7 +112,7 @@
 			<p class="col span_5 text-left">
 				<strong>ENG provided experts <br>from these areas: </strong><br>
 				<i class="fi fi-plus orange-highlight"></i> Healthcare Providers<br>
-				<i class="fi fi-plus orange-highlight"></i> Insurance Payors<br>
+				<i class="fi fi-plus orange-highlight"></i> Insurance Payers<br>
 				<i class="fi fi-plus orange-highlight"></i> Epidemiologists / Clinicians<br>
 			</p>
 			<p class="col span_1 text-left">&nbsp;</p>

@@ -20,8 +20,6 @@ var mainJs = (function () {
 			
 			$('.jumpnav li a, .jumpnav > a').on('click', function(e){
 				
-				console.log('sdf');
-				
 				var target = $(this).attr('href');
 				
 				$('html, body').stop().animate({
@@ -36,11 +34,19 @@ var mainJs = (function () {
 	
 		function contactCondition(){
 			
-			$('.form-select-option').on('change',function(){
+			var showForm = function(value){
 				
-				if($('.hidden-select-items').hasClass('hidden')){
-					$('.hidden-select-items').removeClass('hidden');
-				}
+				$('.hidden-select-items.active').removeClass('active').addClass('hidden');
+				$('.hidden-select-items.'+value).removeClass('hidden').addClass('active');
+			
+			}
+			
+			$('.form-select-option.primary').on('change',function(){
+				
+				
+				var value = $(this).val();
+				
+				showForm(value);
 				
 			});
 			
