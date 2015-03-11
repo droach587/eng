@@ -330,7 +330,7 @@
 				<div class="mid-section--full">
 					<div class="mid-section--center">
 						<div class="vertical-center">
-							<h1 class="section-hero--heading tri-flare">Lets Work Together</h1>
+							<h1 class="section-hero--heading tri-flare">Let's Work Together</h1>
 						</div>
 					</div>
 				</div>

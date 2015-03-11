@@ -65,11 +65,11 @@
 			<div class="inner-container">
 				<div class="content-wrapper">
 					
-					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Receive Details on Projects in Your Area of Expertise</p>
-					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Speak with ENG Researcher to Determine Suitability</p>
-					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Schedule Consultation Around Your Availability</p>
-					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Participate in ENG Events</p>
-					<p class="col span_12 standard-p medium text-left"><i class="fi fi-check orange-highlight normal"></i>&nbsp; Receive Compensation </p>
+					<p class="col span_12 standard-p medium text-left"><strong class="orange-highlight">1.</strong>&nbsp; Receive Details on Projects in Your Area of Expertise</p>
+					<p class="col span_12 standard-p medium text-left"><strong class="orange-highlight">2.</strong>&nbsp; Speak with ENG Researcher to Determine Suitability</p>
+					<p class="col span_12 standard-p medium text-left"><strong class="orange-highlight">3.</strong>&nbsp; Schedule Consultation Around Your Availability</p>
+					<p class="col span_12 standard-p medium text-left"><strong class="orange-highlight">4.</strong>&nbsp; Participate in ENG Events</p>
+					<p class="col span_12 standard-p medium text-left"><strong class="orange-highlight">5.</strong>&nbsp; Receive Compensation </p>
 					
 					<h2 id="faqs" class="section-subheading text-center">
 						Frequently Asked Questions:
