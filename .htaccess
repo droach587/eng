@@ -7,6 +7,7 @@
     RewriteRule ^privacy(/?$) /privacy.php [L]
     RewriteRule ^thanks(/?$) /thanks.php [L]
     RewriteRule ^terms(/?$) /terms.php [L]
+    RewriteRule ^expert-agreement(/?$) /expert-agreement.php [L]
     RewriteRule ^our-clients(/?$) /hedge-funds.php [L]
     RewriteRule ^experts(/?$) /experts.php [L]
     RewriteRule ^our-clients/corporations(/?$) /corporations.php [L]

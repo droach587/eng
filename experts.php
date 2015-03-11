@@ -112,7 +112,7 @@
 							<i class="fa fa-question-circle normal"></i> Do I need to sign a contract?
 						</p>
 						<p class="standard-p full-width text-left no-padding">
-							Yes - by agreeing to ENG’s <a href="/terms">Terms & Conditions</a>, you become eligible for consulting arrangements with our clients. The agreement does not restrict any current or future employment.  Our relationship is ongoing but can be terminated at any time.
+							Yes - by agreeing to ENG’s <a href="/expert-agreement">Terms & Conditions</a>, you become eligible for consulting arrangements with our clients. The agreement does not restrict any current or future employment.  Our relationship is ongoing but can be terminated at any time.
 						</p>
 					</div>
 					<div class="full-width margin-top-40">

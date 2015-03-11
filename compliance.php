@@ -82,7 +82,7 @@
 						ENG EXPERT VETTING & RECRUITMENT
 					</h3>
 					<p class="standard-p">
-						&bull; All Experts must sign and agree to terms and conditions specified in ENG's Expert Agreement | <a href="/terms">VIEW ENG TERMS &amp; CONDITIONS</a>
+						&bull; All Experts must sign and agree to terms and conditions specified in ENG's Expert Agreement | <a href="/expert-agreement">VIEW ENG TERMS &amp; CONDITIONS</a>
 						<br><br>
 						&bull; Expert must furnish last five (5) years of employment history (including background checks)
 						<br><br>
