@@ -77,10 +77,20 @@ var mainJs = (function () {
 	
 		function facilitiesDrawers(){
 			
+			var clearOpen = function(){
+				$('.facilities-graph li.open').toggleClass('open');
+			}
+			
 			$('.facilities-graph > li > a').on('click', function(e){
+				
+				clearOpen();
 				
 				$(this).parent().toggleClass('open');
 				$(this).parent().find('.fa-plus').toggleClass('fa-minus');
+				
+				setTimeout(function(){
+					clearOpen();
+				}, 10000)
 				
 				e.preventDefault();
 			});
