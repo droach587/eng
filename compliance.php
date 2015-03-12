@@ -1,3 +1,9 @@
+<?php
+	$name = (isset($_GET['name']) && !empty($_GET['name']))? htmlspecialchars($_GET['name']) : false;
+	$email = (isset($_GET['email']) && !empty($_GET['email']))? htmlspecialchars($_GET['email']) : false;
+	$telephone = (isset($_GET['telephone']) && !empty($_GET['telephone']))? htmlspecialchars($_GET['telephone']) : false;
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js ie6"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js ie7"> <![endif]-->
@@ -125,15 +131,15 @@
 							
 							<label>
 								Your Name
-								<input tabindex="1" id="Field3" placeholder="Full Name" name="Field3" type="text" class="name-copy field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required="">
+								<input tabindex="1" id="Field3" placeholder="Full Name" name="Field3" type="text" class="name-copy field text medium" value="<?php echo $name; ?>" maxlength="255" tabindex="1" onkeyup="" required="">
 							</label>
 							<label>
 								Your Email
-								<input tabindex="2" id="Field7" placeholder="Email" name="Field7" type="email" spellcheck="false" class=" email-copy field text medium" value="" maxlength="255" tabindex="4" required="">
+								<input tabindex="2" id="Field7" placeholder="Email" name="Field7" type="email" spellcheck="false" class=" email-copy field text medium" value="<?php echo $email; ?>" maxlength="255" tabindex="4" required="">
 							</label>
 							<label>
 								Telephone
-								<input tabindex="3" id="Field4" placeholder="Telephone" name="Field4" type="text" class="tel-copy field text medium" value="" maxlength="255" tabindex="5" onkeyup="" required="">
+								<input tabindex="3" id="Field4" placeholder="Telephone Number" name="Field4" type="text" class="tel-copy field text medium" value="<?php echo $telephone; ?>" maxlength="255" tabindex="5" onkeyup="" required="">
 							</label>
 							<label>
 								Your Title

@@ -52,13 +52,19 @@ var mainJs = (function () {
 							scrollTop : $('#registration').offset().top - 90
 						},400);
 					}else{
-						window.location.href = "/compliance#registration";
+						window.location.href = "/compliance?registration=true&name="+encodeURIComponent($('#name-form-input').val())+"&email="+encodeURIComponent($('#email-form-input').val())+"&telephone="+encodeURIComponent($('#tel-form-input').val());
 					}
 				}else{
 					showForm(value);
 				}
 				
 			});
+			
+			if (window.location.href.indexOf("registration") >= 0){
+				$('html, body').stop().animate({
+					scrollTop : $('#registration').offset().top - 90
+				},400);
+			}
 			
 			//Copy Input Vals
 			$('#name-form-input, #email-form-input, #tel-form-input ').on('blur', function(){
