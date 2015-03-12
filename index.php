@@ -313,7 +313,7 @@
 										</a>
 									</div>
 									<div class="col span_4">
-										<h3 class="success-heading">advertising agency</h3>
+										<h3 class="success-heading">advertising agencies</h3>
 										<a class="success-article fancybox" href="#airline-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0005_ProfessionalServices.jpg" width="100%" height="auto">
 											<h2 class="h2">C-Suite <br>Access</h2>
@@ -324,7 +324,7 @@
 								</li>
 								<li>
 									<div class="col span_4">
-										<h3 class="success-heading">investment bank</h3>
+										<h3 class="success-heading">investment banks</h3>
 										<a class="success-article fancybox" href="#investment-bank-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0003_InvestmentBanks.jpg" width="100%" height="auto">
 											<h2 class="h2">Market Dynamics</h2>
@@ -342,7 +342,7 @@
 										</a>
 									</div>
 									<div class="col span_4">
-										<h3 class="success-heading">law firm</h3>
+										<h3 class="success-heading">law firms</h3>
 										<a class="success-article fancybox" href="#law-firm-cs" rel="cs-overlay">
 											<img src="/img/cs-images/9_0002_LawFirms.jpg" width="100%" height="auto">
 											<h2 class="h2">Legal Support</h2>
@@ -387,7 +387,7 @@
 							</div>						
 							<div class="col span_7">
 								<h3 class="h3">Define Your Project</h3>
-								<p>Provide granular details related to your Custom Research Request (CRR).</p>
+								<p>Provide granular details related to your Custom Research Request | CRR.</p>
 							</div>
 						</div>
 						<div class="col span_12">
@@ -405,7 +405,7 @@
 							</div>						
 							<div class="col span_7">
 								<h3 class="h3">Engage ENG Experts</h3>
-								<p>Schedule and connect utilizing our Expert Relationship Management System (ERMS).</p>
+								<p>Schedule and connect utilizing our Expert Relationship Management System | ERMS.</p>
 							</div>
 						</div>
 					</div>

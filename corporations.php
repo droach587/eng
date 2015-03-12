@@ -57,7 +57,7 @@
 					</div>
 					
 					<div class="full-width margin-top-20 text-center">
-						<h2 class="full-width section-subheading skinny text-center">How to work with us:</h2>
+						<h2 class="full-width section-subheading skinny text-center">How to Work With Us:</h2>
 						<hr>
 						<div class="full-width">
 							<h4 class="section-secondary-subheading flat-bottom"><i class="fa fa-comments-o orange-highlight"></i> Submit a Request</h4>

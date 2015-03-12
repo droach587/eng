@@ -27,10 +27,10 @@
 						<option value="client">Become an ENG Client</option>
 						<option value="expert">Become an ENG Expert</option>
 						<option value="crr">Custom Research Request | CRR </option>
-						<option value="company">Register a Company</option>
 						<option value="compliance">ENG Compliance</option>
-						<option value="jobs">Employment Opportunities</option>
 						<option value="collab">Collaborations Partnerships</option>
+						<option value="jobs">Employment Opportunities</option>
+						<option value="company">Register a Company</option>
 						<option value="other">Other</option>
 					</select>
 				</label>
