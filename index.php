@@ -220,7 +220,7 @@
 						<li class="col span_4"><a href="/our-clients/corporations"><span class="vertical-center"><span class="center">Corporations &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/our-clients/private-equity" class="fancybox"><span class="vertical-center"><span class="center">Private Equity &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/our-clients/venture-capital" class="fancybox"><span class="vertical-center"><span class="center">Venture Capital &raquo;</span></span></a></li>
-						<li class="col span_4"><a href="/our-clients/professional-services-firms" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Services Firms &raquo;</span></span></a></li>
+						<li class="col span_4"><a href="/our-clients/professional-service-firms" class="fancybox"><span class="vertical-center"><span class="center">Professional<br> Service Firms &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/our-clients/investment-banking" class="fancybox"><span class="vertical-center"><span class="center">Investment Banking &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/our-clients/law" class="fancybox"><span class="vertical-center"><span class="center">Law &raquo;</span></span></a></li>
 						<li class="col span_4"><a href="/our-clients/life-sciences" class="fancybox"><span class="vertical-center"><span class="center">Life Sciences &raquo;</span></span></a></li>

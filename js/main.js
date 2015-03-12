@@ -46,7 +46,17 @@ var mainJs = (function () {
 				
 				var value = $(this).val();
 				
-				showForm(value);
+				if(value ==='company'){
+					if (window.location.href.indexOf("compliance") >= 0){
+						$('html, body').stop().animate({
+							scrollTop : $('#registration').offset().top - 90
+						},400);
+					}else{
+						window.location.href = "/compliance#registration";
+					}
+				}else{
+					showForm(value);
+				}
 				
 			});
 			

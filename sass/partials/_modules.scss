@@ -922,7 +922,8 @@
 			}
 		}
 		
-		.primary-contact-form{
+		.primary-contact-form,
+		.secondary-contact-form{
 			display: inline-block;
 			width: 500px;
 			position: relative;
@@ -990,6 +991,35 @@
 						background: rgba(#fa6121, .2);
 						border-color: $brand-orange;
 					}
+				}
+			}
+		}
+		
+		.secondary-contact-form{
+			width: 100%;
+			padding-top: 10px;
+			label{
+				color: $brand-medium-grey;
+			}
+			input, 
+			textarea{
+				border-color: $brand-light-grey;
+				background: $brand-off-white;
+				color: $brand-medium-grey;
+				@include input-placeholder {
+					color: rgba($brand-medium-grey,.7);
+				}
+				&:hover{
+					color: $brand-medium-grey;
+					@include input-placeholder {
+					color: $brand-medium-grey;
+					}
+				}
+			}
+			.btn{
+				margin-top: -10px;
+				&:hover{
+					color: white;
 				}
 			}
 		}

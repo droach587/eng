@@ -775,7 +775,7 @@
 				<div class="full-width">
 					<h2 class="full-width text-center">
 						<span class="market-icons heart"></span> 
-						Healtcare
+						Healthcare
 					</h2>
 				</div>
 				

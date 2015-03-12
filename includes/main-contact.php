@@ -6,7 +6,7 @@
 		<div class="primary-contact-form">
 			<label>
 				Your Name
-				<input id="name-form-input" type="text" placeholder="Name" data-target=".name-copy">
+				<input id="name-form-input" type="text" placeholder="Full Name" data-target=".name-copy">
 			</label>
 			<label>
 				Email
@@ -173,30 +173,6 @@
 					</form>
 				</div>
 			<!-- CRR Form -->
-			
-			<!-- Company Form -->
-				<div class="hidden-select-items company full-width hidden">
-					<form id="form6" class="full-width wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="https://engllc.wufoo.com/forms/w1wisgff08kxa5z/#public">
-						<input id="Field3" name="Field3" type="text" class="name-copy hidden field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required="">
-						<input id="Field7" name="Field7" type="email" spellcheck="false" class=" email-copy hidden field text medium" value="" maxlength="255" tabindex="4" required="">
-						<input id="Field4" name="Field4" type="text" class="tel-copy hidden field text medium" value="" maxlength="255" tabindex="5" onkeyup="" required="">
-						<label>
-							Your Title
-							<input id="Field10" name="Field10" type="text" class="field text medium" value="" maxlength="255" tabindex="2" onkeyup="">
-						</label>
-						<label>
-							Company Represented
-							<input id="Field9" name="Field9" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="">
-						</label>
-						<label>
-							&nbsp;
-							<input id="Field12" name="Field12" type="text" class="hidden field text medium" value="<?php echo $current_url; ?>" maxlength="255" tabindex="5" onkeyup=""       />
-							<input type="hidden" id="idstamp" name="idstamp" value="I7ME9NvvAoKUDvDTMg1r9R3mJdid+dhH52cwxuwtTiM=">
-							<input id="saveForm" name="saveForm" class="btn orange btTxt submit" type="submit" value="Submit" onClick="_gaq.push(['_trackEvent', 'Contact Form', 'Submit', 'Register a Company']);">
-						</label>
-					</form>
-				</div>
-			<!-- Company Form -->
 			
 			<!-- Compliance Form -->
 				<div class="hidden-select-items compliance full-width hidden">

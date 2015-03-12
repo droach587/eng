@@ -40,96 +40,117 @@
 			<div class="inner-container">
 				<div class="content-wrapper">
 					<h2 class="section-subheading skinny text-center">
-						 ENG is committed to delivering relevant experts in a prompt, fully transparent manner. 
+						 ENG is committed to delivering relevant experts in a prompt, fully transparent manner.
 					</h2>
 					<p class="standard-p">
 						<img src="/img/compliance-graph.jpg" width="100%" height="auto">
 					</p>
 					<p class="standard-p">
-						ENG ||| LLC is committed to delivering relevant experts in a prompt, fully transparent manner. Our red-carpet service provides the most prudent and customized service available for both clients and experts. Not only is ENG subject to the extensive compliance requirements of a FINRA registered broker-dealer, but also adheres to a strict internal compliance framework. Prior to ENG’s launch, the founding members worked with their lawyers, clients, partners, experts, and board members, to build an all encompassing compliance protocol that is best of breed. ENG continually strives to stay ahead of changes in the marketplace. Our proprietary ERMS* software provides a transparent workspace which allows clients to monitor their product usage, view ENG's current compliance practices, and create a customized compliance solution to meet specific needs.
+						Our project-specific recruitment service is the most customizable and inclusive of compliance checks & balances.  We started with the stringent requirements of a FINRA registered broker-dealer and then designed a 10-step process that empowers multiple individuals with compliance oversight throughout the process.
 						<br><br>
-						Components of ENG's compliance policy can be viewed below:
+						A member of ENG's Compliance team is always available to elaborate on the specifics of our interactive framework.  In the meantime they fall into four stages:
 					</p>
 					<h3 class="h3">
-						ENG EXPERT VETTING & RECRUITMENT
+						Phase 1 | PRE-PROJECT:  ESTABLISH PROTOCOL
 					</h3>
 					<p class="standard-p">
-						&bull; Prior to initiating a request, our research team identifies client&rsquo;s needs and works to source the most suitable subject matter experts
+						ENG understands that clients have different compliance preferences.
+						Before you even engage with an ENG expert, we need to understand the amount of resources your organization is able to allocate to compliance: High/Med/Low.  Clients that are operationally 'lean', will simply rely on ENG's framework to a greater extent.  
 						<br><br>
-						&bull; Evaluate and screen experts for relevancy, eligibility, and potential conflicts of interest (varies by sector - i.e.):
+						Below are compliance settings that cannot be adjusted:
 						<br><br>
-						&bull; HEALTHCARE: exclude any individuals that are involved in a drug or healthcare product clinical trial for which results have not yet been made public
-						<br><br>
-						&bull; GOVERNMENT: exclude any individual who is in a position to vote upon or otherwise influence pending legislation, regulation, policy or contract
-						<br><br>
-						&bull; Less than 2% of our network consists of executives of publicly-traded companies; our expert network is comprised of former executives, private company employees &amp; independent experts
-						<br><br>
-						&bull; Spend significant time interacting with experts, evaluating expertise and educating them on our compliance protocol
-						<br><br>
-						&bull; Refrain from contacting employees at publicly-traded companies, unless specifically requested by client and authorized by client's compliance dept.
-						<br><br>
-						To which we apply stringent standards:
-						<br><br>
-						&bull; Expert must obtain expressed written consent from current employer
-						<br><br>
-						&bull; As always, absolutely no material, non-public information is to ever be discussed, disseminated or acted upon
-						<br><br>
-						&bull; For executives recently departed from a publicly-traded co., ENG imposes a waiting period prior to having them engage in a 1x1 call (can be customized to your firm's standards, but at a minimum, earnings for the quarter in which they were last employed must have been announced)
-						<br><br>
-						&bull; Ongoing Expert training &amp; continuing education
+						&bull; HEALTHCARE | Exclude any individuals that are involved in clinical trial(s) for which results have not yet been released<br>
+						&bull; GOVERNMENT | Exclude any individual who is in a position to vote upon or otherwise influence pending legislation, policy or contract
 					</p>
 					<h3 class="h3">
-						ENG EXPERT VETTING & RECRUITMENT
+						Phase 2 | DURING THE PROJECT
 					</h3>
 					<p class="standard-p">
-						&bull; All Experts must sign and agree to terms and conditions specified in ENG's Expert Agreement | <a href="/expert-agreement">VIEW ENG TERMS &amp; CONDITIONS</a>
+						ENG's Research team will spend significant time interacting with experts to evaluate their experiences and discuss compliance.
 						<br><br>
-						&bull; Expert must furnish last five (5) years of employment history (including background checks)
+						This allows us to:
 						<br><br>
-						&bull; Experts must complete a tutorial that addresses insider trading, material non-public information, conflict of interest, and other aspects of our best of breed compliance protocol
+						&bull; Assess experts for relevancy and educate them on compliance matters (conflicts of interest, confidential/proprietary information, fiduciary duties, etc.).  This hand vetting process enables ENG to handle projects with the utmost discretion.<br>
+						&bull; Discern between experts who are employed at companies with publicly-traded securities vs. companies that are privately held; note that less than 5% of our network is comprised of experts from public companies
 						<br><br>
-						&bull; ENG Terms &amp; Conditions must be reaffirmed regularly via ERMS* portal
+						It is during this stage that all experts must review <a href="/expert-agreement.php">ENG's Terms & Conditions</a>.  Attestations to this language are captured within our tiered-access Expert Relationship Management System (ERMS)
 					</p>
 					<h3 class="h3">
-						ENG 1x1 CALLS | MEETINGS | EVENT HOSTING SERVICE
+						Phase 3 | THE EVENT
 					</h3>
 					<p class="standard-p">
-						&bull; Red-Carpet service (we handle all arrangements from start to finish, including all follow-up work)
+						By scheduling, connecting, and hosting all phone consultations, ENG is able to offer compliance procedures that are highly granular and customizable:
 						<br><br>
-						&bull; ENG hosts all events (1x1 phone calls, 1x1 meetings, group meetings &amp; field visits), thereby adding a layer of compliance that further mitigates risks to all parties
-						<br><br>
-						&bull; Prior to any event, ENG verbally reminds all participants of compliance requirements (experts &amp; clients)
-						<br><br>
-						&bull; Both experts and clients must adhere to e-mail compliance riders on both call confirmation (day call gets on calendar) &amp; call reminder (sent day of actual call)
-						<br><br>
-						&bull; Appropriate individuals can also be CC'd or BCC'd automatically on any e-mail correspondence via ERMS*
-						<br><br>
-						&bull; Client's compliance team has the ability to monitor all 1x1 phone calls, meetings, and events
-						<br><br>
-						&bull; ENG handles ALL follow-up work to further manage risk; interactions that are independently arranged by clients & experts initially introduced by ENG are NOT permitted.
+						&bull; Set the Day/Time for the event and notify all participants<br>
+						&bull; Designate Compliance Officer authority as well as triggering criteria<br>
+						&bull; Delegate authorization controls to Approve/Reject certain events<br>
+						&bull; Assign chaperone for phone calls involving certain types of experts (event cannot occur without chaperone)<br>
+						&bull; Explicitly verbal compliance statements to all parties
 					</p>
 					<h3 class="h3">
-						ENG WEB PORTAL
+						Phase 4 | POST EVENT
 					</h3>
 					<p class="standard-p">
-						&bull; ENG's proprietary ERMS* software provides a single point of access for clients and experts to manage and view all activity
+						Given the highly-regulated industries in which many of our clients operate, ENG understands that a system must capture key information: expert's work history, clients' project details, event day/time, participant names, duration, etc.
 						<br><br>
-						&bull; Allows authorized users to monitor and manage product usage & compliance
+						The additional benefits of our ERMS platform enables:
 						<br><br>
-						&bull; Allows individual PM/analysts to view their personal activity, upcoming events, manage personal calendar, request follow-up calls and submit Custom Research Requests (CRR's)
-						<br><br>
-						&bull; Allows Experts to update employment history, work experience, contact information as well as monitor their work and payment history with ENG.
+						&bull; Central point of access for Compliance Officers to monitor all activity<br>
+						&bull; On-demand activity reports that are a perfect audit trail for regulatory bodies such as the Securities Exchange Commission, Financial Services Authority.<br>
+						&bull; Periodic, continuing-education training for experts on compliance best practices
 					</p>
-					<h3 class="h3">ENG COMPLIANCE CUSTOMIZATION</h3>
+					
+					<h3 class="h3">
+						ENG | CORPORATE USAGE DATABASE 
+					</h3>
 					<p class="standard-p">
-						&bull; Your individual compliance demands can seamlessly be incorporated into our existing compliance framework.
-					</p>
-					<h3 class="h3">ENG CORPORATE DATABASE</h3>
-					<p class="standard-p">
-						&bull; ENG understands that current and prospective experts may have certain obligations related to 1x1 interactions with our clients. Therefore, ENG maintains a Corporate Database of firms who wish to specify how their employees interact with ENG's clients. Employers globally can contact ENG directly to outline their terms and conditions<br><br><span class="jumpnav"><a class="btn orange" href="#contact">REGISTER COMPANY</a></span>
+						ENG understands that certain employers may wish to specify how their employees interact with ENG's clients.
+						Therefore, ENG maintains a list of firms that have specific preferences for how ENG must engage with their employees.
 						<br><br>
-						*ERMS - Expert Relationship Management System
+						Employers can contact ENG's Compliance Department to discuss their conditions here:
+						<br><br>
+						<span class="jumpnav"><a href="#registration" class="btn orange">Register Here</a></span>
+						<br><br>
+						The ENG Corporate Database is a channel through which employers can outline how their employees and/or representatives interact with ENG's client base. 
+						Once an employer is registered in the Database, their preferences are fully integrated with ENG's proprietary ERMS | Expert Relationship Management System.
 					</p>
+					<h2 id="registration" class="section-subheading skinny text-center">
+						 Register a Company
+					</h2>
+					<hr>
+					<p class="standard-p text-center">Please complete the form below to enroll in the ENG Corporate Database:</p>
+					<div class="full-width secondary-contact-form">
+						<?php $current_url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
+						<form id="form6" class="full-width wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="https://engllc.wufoo.com/forms/w1wisgff08kxa5z/#public">
+							
+							<label>
+								Your Name
+								<input tabindex="1" id="Field3" placeholder="Full Name" name="Field3" type="text" class="name-copy field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required="">
+							</label>
+							<label>
+								Your Email
+								<input tabindex="2" id="Field7" placeholder="Email" name="Field7" type="email" spellcheck="false" class=" email-copy field text medium" value="" maxlength="255" tabindex="4" required="">
+							</label>
+							<label>
+								Telephone
+								<input tabindex="3" id="Field4" placeholder="Telephone" name="Field4" type="text" class="tel-copy field text medium" value="" maxlength="255" tabindex="5" onkeyup="" required="">
+							</label>
+							<label>
+								Your Title
+								<input tabindex="4" id="Field10" placeholder="Job Title" name="Field10" type="text" class="field text medium" value="" maxlength="255" tabindex="2" onkeyup="">
+							</label>
+							<label>
+								Company Represented
+								<input tabindex="5" id="Field9" placeholder="Company Name" name="Field9" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="">
+							</label>
+							<label>
+								&nbsp;
+								<input id="Field12" name="Field12" type="text" class="hidden field text medium" value="<?php echo $current_url; ?>" maxlength="255" tabindex="5" onkeyup=""       />
+								<input type="hidden" id="idstamp" name="idstamp" value="I7ME9NvvAoKUDvDTMg1r9R3mJdid+dhH52cwxuwtTiM=">
+								<input tabindex="6" id="saveForm" name="saveForm" class="btn orange btTxt submit" type="submit" value="Submit" onClick="_gaq.push(['_trackEvent', 'Contact Form', 'Submit', 'Register a Company']);">
+							</label>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div id="contact" class="full-width">
