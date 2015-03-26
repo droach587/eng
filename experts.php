@@ -101,7 +101,7 @@
 					</div>
 					<div class="full-width margin-top-40">
 						<p class="standard-p full-width orange-highlight medium text-left no-padding">
-							<i class="fa fa-question-circle normal"></i> How long will do phone calls or meetings last?
+							<i class="fa fa-question-circle normal"></i> How long will phone calls or meetings last?
 						</p>
 						<p class="standard-p full-width text-left no-padding">
 							Unless discussed, please allocate one hour for the duration of the event. We’ll always schedule events around your availability.

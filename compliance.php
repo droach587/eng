@@ -49,9 +49,6 @@
 						 ENG is committed to delivering relevant experts in a prompt, fully transparent manner.
 					</h2>
 					<p class="standard-p">
-						<img src="/img/compliance-graph.jpg" width="100%" height="auto">
-					</p>
-					<p class="standard-p">
 						Our project-specific recruitment service is the most customizable and inclusive of compliance checks & balances.  We started with the stringent requirements of a FINRA registered broker-dealer and then designed a 10-step process that empowers multiple individuals with compliance oversight throughout the process.
 						<br><br>
 						A member of ENG's Compliance team is always available to elaborate on the specifics of our interactive framework.  In the meantime they fall into four stages:

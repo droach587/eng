@@ -212,7 +212,7 @@
 						</div>
 					</div>
 					<h2 class="section-subheading text-center">
-						Select your industry:
+						Select Your Industry:
 					</h2>
 					<hr class="short">
 					<ul class="industry-graph">
